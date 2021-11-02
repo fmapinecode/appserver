@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ui:composition xmlns:ui="http://java.sun.com/jsf/facelets" xmlns:af="http://xmlns.oracle.com/adf/faces/rich"
+                xmlns:f="http://java.sun.com/jsf/core">
+  <af:panelTabbed id="pt1">
+    <af:showDetailItem text="Department - Employees" id="sdi1">
+      <af:panelBox id="pb1" showDisclosure="false">
+    
+        
+          <af:button text="page A" id="b1" action="go"/>
+        </af:panelBox>
+    </af:showDetailItem>
+    
+  </af:panelTabbed>
+</ui:composition>

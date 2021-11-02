@@ -1,0 +1,17 @@
+<References xmlns="http://xmlns.oracle.com/adf/jndi">
+  <Reference name="RemoteProducer"
+             className="oracle.adf.controller.rc.remote.RemoteTaskFlowConnection" xmlns="">
+    <Factory className="oracle.adf.controller.rc.remote.RemoteTaskFlowConnectionFactory"/>
+    <RefAddresses>
+      <XmlRefAddr addrType="RemoteProducer">
+        <Contents>
+          <remoteTaskFlowProducer name="RemoteProducer"
+                                  queryURL="http://florin:8080/RemoteTaskFlowProducer/rtfquery"
+                                  invokeURL="http://florin:8080/RemoteTaskFlowProducer/rr"
+                                  alwaysSendUserIdentity="false"/>
+                               
+        </Contents>
+      </XmlRefAddr>
+    </RefAddresses>
+  </Reference>
+</References>

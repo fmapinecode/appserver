@@ -1,0 +1,792 @@
+[2021-11-02T13:42:07.939+0000] [Payara 5.2021.8] [INFO] [jsf.config.listener.version] [javax.enterprise.resource.webcontainer.jsf.config] [tid: _ThreadID=459 _ThreadName=admin-thread-pool::admin-listener(9)] [timeMillis: 1635860527939] [levelValue: 800] [[
+  Initializing Mojarra |version.string| for context '/Consumer-ViewController-context-root']]
+
+[2021-11-02T13:42:10.628+0000] [Payara 5.2021.8] [WARNING] [] [oracle.adf.share.config.MDSConfigFactory] [tid: _ThreadID=459 _ThreadName=admin-thread-pool::admin-listener(9)] [timeMillis: 1635860530628] [levelValue: 900] [[
+  Empty MDS config list!]]
+
+[2021-11-02T13:42:11.005+0000] [Payara 5.2021.8] [WARNING] [PARTITION_INVALID_FEATURE_DEPENDENCY] [oracle.adfinternal.view.faces.partition.FeatureUtils] [tid: _ThreadID=459 _ThreadName=admin-thread-pool::admin-listener(9)] [timeMillis: 1635860531005] [levelValue: 900] [[
+  Ignoring feature-dependency on feature "AdfUIChoose". No such feature exists.]]
+
+[2021-11-02T13:42:11.941+0000] [Payara 5.2021.8] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=459 _ThreadName=admin-thread-pool::admin-listener(9)] [timeMillis: 1635860531941] [levelValue: 800] [[
+  Loading application [Consumer_Project1_Consumer#Consumer_ViewController_webapp.war] at [Consumer-ViewController-context-root]]]
+
+[2021-11-02T13:42:12.364+0000] [Payara 5.2021.8] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=459 _ThreadName=admin-thread-pool::admin-listener(9)] [timeMillis: 1635860532364] [levelValue: 800] [[
+  Consumer_Project1_Consumer was successfully deployed in 26,331 milliseconds.]]
+
+[2021-11-02T13:42:43.108+0000] [Payara 5.2021.8] [INFO] [] [javax.enterprise.system.container.web.com.sun.web.security] [tid: _ThreadID=96 _ThreadName=http-thread-pool::http-listener-1(1)] [timeMillis: 1635860563108] [levelValue: 800] [[
+  Context path from ServletContext: /Consumer-ViewController-context-root differs from path from bundle: Consumer-ViewController-context-root]]
+
+[2021-11-02T13:42:43.640+0000] [Payara 5.2021.8] [NOTIFICATION] [] [oracle.mds] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860563640] [levelValue: 800] [[
+  MDS-11026: Ignoring the duplicate MDS component configuration file URL "jar:file:/C:/softwork/payara5/glassfish/domains/domain1/lib/adf-share-ca.jar!/META-INF/mds-config.xml" found on the classpath.]]
+
+[2021-11-02T13:42:43.641+0000] [Payara 5.2021.8] [NOTIFICATION] [] [oracle.mds] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860563641] [levelValue: 800] [[
+  MDS-11026: Ignoring the duplicate MDS component configuration file URL "jar:file:/C:/softwork/payara5/glassfish/domains/domain1/lib/adf-share-support.jar!/META-INF/mds-config.xml" found on the classpath.]]
+
+[2021-11-02T13:42:43.641+0000] [Payara 5.2021.8] [NOTIFICATION] [] [oracle.mds] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860563641] [levelValue: 800] [[
+  MDS-11026: Ignoring the duplicate MDS component configuration file URL "jar:file:/C:/softwork/payara5/glassfish/domains/domain1/lib/adfm.jar!/META-INF/mds-config.xml" found on the classpath.]]
+
+[2021-11-02T13:42:43.641+0000] [Payara 5.2021.8] [NOTIFICATION] [] [oracle.mds] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860563641] [levelValue: 800] [[
+  MDS-11026: Ignoring the duplicate MDS component configuration file URL "jar:file:/C:/softwork/payara5/glassfish/domains/domain1/lib/adfsharembean.jar!/META-INF/mds-config.xml" found on the classpath.]]
+
+[2021-11-02T13:42:43.641+0000] [Payara 5.2021.8] [NOTIFICATION] [] [oracle.mds] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860563641] [levelValue: 800] [[
+  MDS-11026: Ignoring the duplicate MDS component configuration file URL "jar:file:/C:/softwork/payara5/glassfish/domains/domain1/lib/mdsrt.jar!/META-INF/mds-config.xml" found on the classpath.]]
+
+[2021-11-02T13:42:43.641+0000] [Payara 5.2021.8] [NOTIFICATION] [] [oracle.mds] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860563641] [levelValue: 800] [[
+  MDS-11026: Ignoring the duplicate MDS component configuration file URL "jar:file:/C:/softwork/payara5/glassfish/domains/domain1/lib/resourcebundle.jar!/META-INF/mds-config.xml" found on the classpath.]]
+
+[2021-11-02T13:42:43.683+0000] [Payara 5.2021.8] [WARNING] [] [oracle.mds] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860563683] [levelValue: 900] [[
+  MDS-01393: Multiple audit events named "CreateViewObject" are defined for component "ADF".]]
+
+[2021-11-02T13:42:43.683+0000] [Payara 5.2021.8] [WARNING] [] [oracle.mds] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860563683] [levelValue: 900] [[
+  MDS-01393: Multiple audit events named "RemoveViewObject" are defined for component "ADF".]]
+
+[2021-11-02T13:42:43.683+0000] [Payara 5.2021.8] [WARNING] [] [oracle.mds] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860563683] [levelValue: 900] [[
+  MDS-01393: Multiple audit events named "AddViewLinkDef" are defined for component "ADF".]]
+
+[2021-11-02T13:42:43.683+0000] [Payara 5.2021.8] [WARNING] [] [oracle.mds] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860563683] [levelValue: 900] [[
+  MDS-01393: Multiple audit events named "RemoveViewLinkDef" are defined for component "ADF".]]
+
+[2021-11-02T13:42:43.684+0000] [Payara 5.2021.8] [WARNING] [] [oracle.mds] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860563684] [levelValue: 900] [[
+  MDS-01393: Multiple audit events named "AddAttributeDef" are defined for component "ADF".]]
+
+[2021-11-02T13:42:43.684+0000] [Payara 5.2021.8] [WARNING] [] [oracle.mds] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860563684] [levelValue: 900] [[
+  MDS-01393: Multiple audit events named "AddTrigger" are defined for component "ADF".]]
+
+[2021-11-02T13:42:43.684+0000] [Payara 5.2021.8] [WARNING] [] [oracle.mds] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860563684] [levelValue: 900] [[
+  MDS-01393: Multiple audit events named "AddValidator" are defined for component "ADF".]]
+
+[2021-11-02T13:42:43.684+0000] [Payara 5.2021.8] [WARNING] [] [oracle.mds] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860563684] [levelValue: 900] [[
+  MDS-01393: Multiple audit events named "RemoveTrigger" are defined for component "ADF".]]
+
+[2021-11-02T13:42:43.684+0000] [Payara 5.2021.8] [WARNING] [] [oracle.mds] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860563684] [levelValue: 900] [[
+  MDS-01393: Multiple audit events named "RemoveValidator" are defined for component "ADF".]]
+
+[2021-11-02T13:42:43.684+0000] [Payara 5.2021.8] [WARNING] [] [oracle.mds] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860563684] [levelValue: 900] [[
+  MDS-01393: Multiple audit events named "CreateViewObject" are defined for component "ADF".]]
+
+[2021-11-02T13:42:43.684+0000] [Payara 5.2021.8] [WARNING] [] [oracle.mds] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860563684] [levelValue: 900] [[
+  MDS-01393: Multiple audit events named "RemoveViewObject" are defined for component "ADF".]]
+
+[2021-11-02T13:42:43.684+0000] [Payara 5.2021.8] [WARNING] [] [oracle.mds] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860563684] [levelValue: 900] [[
+  MDS-01393: Multiple audit events named "AddViewLinkDef" are defined for component "ADF".]]
+
+[2021-11-02T13:42:43.684+0000] [Payara 5.2021.8] [WARNING] [] [oracle.mds] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860563684] [levelValue: 900] [[
+  MDS-01393: Multiple audit events named "RemoveViewLinkDef" are defined for component "ADF".]]
+
+[2021-11-02T13:42:43.684+0000] [Payara 5.2021.8] [WARNING] [] [oracle.mds] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860563684] [levelValue: 900] [[
+  MDS-01393: Multiple audit events named "AddAttributeDef" are defined for component "ADF".]]
+
+[2021-11-02T13:42:43.685+0000] [Payara 5.2021.8] [WARNING] [] [oracle.mds] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860563685] [levelValue: 900] [[
+  MDS-01393: Multiple audit events named "AddTrigger" are defined for component "ADF".]]
+
+[2021-11-02T13:42:43.685+0000] [Payara 5.2021.8] [WARNING] [] [oracle.mds] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860563685] [levelValue: 900] [[
+  MDS-01393: Multiple audit events named "AddValidator" are defined for component "ADF".]]
+
+[2021-11-02T13:42:43.685+0000] [Payara 5.2021.8] [WARNING] [] [oracle.mds] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860563685] [levelValue: 900] [[
+  MDS-01393: Multiple audit events named "RemoveTrigger" are defined for component "ADF".]]
+
+[2021-11-02T13:42:43.685+0000] [Payara 5.2021.8] [WARNING] [] [oracle.mds] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860563685] [levelValue: 900] [[
+  MDS-01393: Multiple audit events named "RemoveValidator" are defined for component "ADF".]]
+
+[2021-11-02T13:42:43.686+0000] [Payara 5.2021.8] [NOTIFICATION] [] [oracle.mds] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860563686] [levelValue: 800] [[
+  MDS-11105: Unable to instantiate Coherence cache provider because Coherence classes are not available on the classpath. SimpleCache will be used instead."]]
+
+[2021-11-02T13:42:44.712+0000] [Payara 5.2021.8] [WARNING] [] [oracle.jdeveloper.webapp.runtime] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860564712] [levelValue: 900] [[
+  Some JEE7 JSTL or JSF required tag libraries were not found. JSP: http://java.sun.com/jsp/jstl/sql|http://xmlns.jcp.org/jsp/jstl/sql, http://java.sun.com/jsp/jstl/fmt|http://xmlns.jcp.org/jsp/jstl/fmt, http://java.sun.com/jsp/jstl/functions|http://xmlns.jcp.org/jsp/jstl/functions, http://java.sun.com/jsf/core|http://xmlns.jcp.org/jsf/core, http://java.sun.com/jsf/html|http://xmlns.jcp.org/jsf/html, http://java.sun.com/jsp/jstl/xml|http://xmlns.jcp.org/jsp/jstl/xml, http://java.sun.com/jsp/jstl/core|http://xmlns.jcp.org/jsp/jstl/core. Facelets: http://java.sun.com/jsf/html|http://xmlns.jcp.org/jsf/html, http://java.sun.com/jsf/facelets|http://xmlns.jcp.org/jsf/facelets, http://java.sun.com/jsp/jstl/functions|http://xmlns.jcp.org/jsp/jstl/functions, http://java.sun.com/jsf/core|http://xmlns.jcp.org/jsf/core, http://java.sun.com/jsp/jstl/core|http://xmlns.jcp.org/jsp/jstl/core]]
+
+[2021-11-02T13:42:45.388+0000] [Payara 5.2021.8] [INFO] [] [oracle.adfinternal.share.props.ADFPropsSettingsCallback] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860565388] [levelValue: 800] [[
+  Duplicate key:ORACLE.ADF.MODEL.SESSIONDEF.AS exists in file:	Source of property = file
+	Prop File Path= file:/C:/softwork/payara5/glassfish/domains/domain1/lib/adf-share-support.jar!/META-INF/adf-settings.xml
+ with value:SESSION and in file:	Source of property = file
+	Prop File Path= file:/C:/softwork/payara5/glassfish/domains/domain1/lib/adf-share-support.jar!/META-INF/adf-settings.xml
+value = SESSION]]
+
+[2021-11-02T13:42:45.389+0000] [Payara 5.2021.8] [INFO] [] [oracle.adfinternal.share.props.ADFPropsSettingsCallback] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860565389] [levelValue: 800] [[
+  Duplicate key:ORACLE.ADF.MODEL.DEF.MODE exists in file:	Source of property = file
+	Prop File Path= file:/C:/softwork/payara5/glassfish/domains/domain1/lib/adf-share-support.jar!/META-INF/adf-settings.xml
+ with value:SITE and in file:	Source of property = file
+	Prop File Path= file:/C:/softwork/payara5/glassfish/domains/domain1/lib/adf-share-support.jar!/META-INF/adf-settings.xml
+value = SITE]]
+
+[2021-11-02T13:42:45.389+0000] [Payara 5.2021.8] [INFO] [] [oracle.adfinternal.share.props.ADFPropsSettingsCallback] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860565389] [levelValue: 800] [[
+  Duplicate key:ORACLE.ADF.DIAGNOSTICS.EXCEPTION.DUMP.PACKAGE exists in file:	Source of property = file
+	Prop File Path= file:/C:/softwork/payara5/glassfish/domains/domain1/lib/adf-share-support.jar!/META-INF/adf-settings.xml
+ with value:java and in file:	Source of property = file
+	Prop File Path= file:/C:/softwork/payara5/glassfish/domains/domain1/lib/adf-share-support.jar!/META-INF/adf-settings.xml
+value = java]]
+
+[2021-11-02T13:42:45.389+0000] [Payara 5.2021.8] [INFO] [] [oracle.adfinternal.share.props.ADFPropsSettingsCallback] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860565389] [levelValue: 800] [[
+  Duplicate key:ORACLE.JBO.MODEL.APPLY.PDEF.TO.BASE.DEF exists in file:	Source of property = file
+	Prop File Path= file:/C:/softwork/payara5/glassfish/domains/domain1/lib/adf-share-support.jar!/META-INF/adf-settings.xml
+ with value:None and in file:	Source of property = file
+	Prop File Path= file:/C:/softwork/payara5/glassfish/domains/domain1/lib/adf-share-support.jar!/META-INF/adf-settings.xml
+value = None]]
+
+[2021-11-02T13:42:45.389+0000] [Payara 5.2021.8] [INFO] [] [oracle.adfinternal.share.props.ADFPropsSettingsCallback] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860565389] [levelValue: 800] [[
+  Duplicate key:ORACLE.ADF.SHARE.SANDBOX.MDS.OBJECTMERGEENABLED exists in file:	Source of property = file
+	Prop File Path= file:/C:/softwork/payara5/glassfish/domains/domain1/lib/adf-share-support.jar!/META-INF/adf-settings.xml
+ with value:Y and in file:	Source of property = file
+	Prop File Path= file:/C:/softwork/payara5/glassfish/domains/domain1/lib/adf-share-support.jar!/META-INF/adf-settings.xml
+value = Y]]
+
+[2021-11-02T13:42:45.389+0000] [Payara 5.2021.8] [INFO] [] [oracle.adfinternal.share.props.ADFPropsSettingsCallback] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860565389] [levelValue: 800] [[
+  Duplicate key:ORACLE.ADF.SHARE.CONFIG.ENABLEADFSESSIONOPTIONS exists in file:	Source of property = file
+	Prop File Path= file:/C:/softwork/payara5/glassfish/domains/domain1/lib/adf-share-support.jar!/META-INF/adf-settings.xml
+ with value:false and in file:	Source of property = file
+	Prop File Path= file:/C:/softwork/payara5/glassfish/domains/domain1/lib/adf-share-support.jar!/META-INF/adf-settings.xml
+value = false]]
+
+[2021-11-02T13:42:45.390+0000] [Payara 5.2021.8] [INFO] [] [oracle.adfinternal.share.props.ADFPropsSettingsCallback] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860565390] [levelValue: 800] [[
+  Duplicate key:ORACLE.ADF.DIAGNOSTICS.EXCEPTION.DUMP exists in file:	Source of property = file
+	Prop File Path= file:/C:/softwork/payara5/glassfish/domains/domain1/lib/adf-share-support.jar!/META-INF/adf-settings.xml
+ with value:false and in file:	Source of property = file
+	Prop File Path= file:/C:/softwork/payara5/glassfish/domains/domain1/lib/adf-share-support.jar!/META-INF/adf-settings.xml
+value = false]]
+
+[2021-11-02T13:42:45.390+0000] [Payara 5.2021.8] [INFO] [] [oracle.adfinternal.share.props.ADFPropsSettingsCallback] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860565390] [levelValue: 800] [[
+  Duplicate key:ORACLE.ADF.SHARE.SANDBOX.CONFIG.ERNCHECKENABLED exists in file:	Source of property = file
+	Prop File Path= file:/C:/softwork/payara5/glassfish/domains/domain1/lib/adf-share-support.jar!/META-INF/adf-settings.xml
+ with value:false and in file:	Source of property = file
+	Prop File Path= file:/C:/softwork/payara5/glassfish/domains/domain1/lib/adf-share-support.jar!/META-INF/adf-settings.xml
+value = false]]
+
+[2021-11-02T13:42:45.390+0000] [Payara 5.2021.8] [INFO] [] [oracle.adfinternal.share.props.ADFPropsSettingsCallback] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860565390] [levelValue: 800] [[
+  Duplicate key:ORACLE.ADF.BC4J.CONFIG.MBEANS.ENABLED exists in file:	Source of property = file
+	Prop File Path= file:/C:/softwork/payara5/glassfish/domains/domain1/lib/bc4j-mbeans.jar!/META-INF/adf-settings.xml
+ with value:false and in file:	Source of property = file
+	Prop File Path= file:/C:/softwork/payara5/glassfish/domains/domain1/lib/bc4j-mbeans.jar!/META-INF/adf-settings.xml
+value = false]]
+
+[2021-11-02T13:42:45.391+0000] [Payara 5.2021.8] [INFO] [] [oracle.adfinternal.share.props.ADFPropsSettingsCallback] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860565391] [levelValue: 800] [[
+  Duplicate key:ORACLE.ADF.SHARE.RESOURCEBUNDLE.ISCUSTOMIZATIONMODE exists in file:	Source of property = file
+	Prop File Path= file:/C:/softwork/payara5/glassfish/domains/domain1/lib/resourcebundle.jar!/META-INF/adf-settings.xml
+ with value:FALSE and in file:	Source of property = file
+	Prop File Path= file:/C:/softwork/payara5/glassfish/domains/domain1/lib/resourcebundle.jar!/META-INF/adf-settings.xml
+value = FALSE]]
+
+[2021-11-02T13:42:45.391+0000] [Payara 5.2021.8] [INFO] [] [oracle.adfinternal.share.props.ADFPropsSettingsCallback] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860565391] [levelValue: 800] [[
+  Duplicate key:ORACLE.ADF.SHARE.USERINTERFACETEXT.BASEBUNDLE.CACHE.SIZE exists in file:	Source of property = file
+	Prop File Path= file:/C:/softwork/payara5/glassfish/domains/domain1/lib/resourcebundle.jar!/META-INF/adf-settings.xml
+ with value:750 and in file:	Source of property = file
+	Prop File Path= file:/C:/softwork/payara5/glassfish/domains/domain1/lib/resourcebundle.jar!/META-INF/adf-settings.xml
+value = 750]]
+
+[2021-11-02T13:42:45.392+0000] [Payara 5.2021.8] [INFO] [] [oracle.adfinternal.share.props.ADFPropsSettingsCallback] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860565392] [levelValue: 800] [[
+  Duplicate key:ORACLE.ADF.BC4J.CONFIG.MBEANS.ENABLED exists in file:	Source of property = file
+	Prop File Path= file:/C:/softwork/payara5/glassfish/domains/domain1/applications/Consumer_Project1_Consumer/lib/bc4j-mbeans.jar!/META-INF/adf-settings.xml
+ with value:false and in file:	Source of property = file
+	Prop File Path= file:/C:/softwork/payara5/glassfish/domains/domain1/lib/bc4j-mbeans.jar!/META-INF/adf-settings.xml
+value = false]]
+
+[2021-11-02T13:42:45.559+0000] [Payara 5.2021.8] [INFO] [] [oracle.adfinternal.controller.state.ControllerState] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860565559] [levelValue: 800] [[
+  ADFc: Limiting the number of RootViewPorts to 20]]
+
+[2021-11-02T13:42:45.584+0000] [Payara 5.2021.8] [WARNING] [AS-WEB-CORE-00059] [javax.enterprise.web.core] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860565584] [levelValue: 900] [[
+  Unable to set request character encoding to UTF-8 from context /Consumer-ViewController-context-root, because request parameters have already been read, or ServletRequest.getReader() has already been called]]
+
+[2021-11-02T13:42:45.664+0000] [Payara 5.2021.8] [INFO] [] [oracle.jbo.uicli.mom.CpxUtils$Visitor] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860565664] [levelValue: 800] [[
+  jndi:/server/Consumer-ViewController-context-root/WEB-INF/classes/view/DataBindings.cpx]]
+
+[2021-11-02T13:42:45.912+0000] [Payara 5.2021.8] [INFO] [CHANGING_LIFECYCLE_IMPLEMENTATION] [oracle.adfinternal.controller.faces.lifecycle.JSFLifecycleImpl] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860565912] [levelValue: 800] [[
+  ADFc: Initializing ADF Page Lifecycle for the JSF environment, LifecycleContextBuilder is 'oracle.adfinternal.controller.application.model.JSFDataBindingLifecycleContextBuilder'.]]
+
+[2021-11-02T13:42:46.002+0000] [Payara 5.2021.8] [INFO] [ADF_SCOPE_HA_SUPPORT] [oracle.adfinternal.controller.state.SessionBasedScopeMap] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860566002] [levelValue: 800] [[
+  ADFc: Configuration parameter adf-scope-ha-support set to 'false'.]]
+
+[2021-11-02T13:42:47.304+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567304] [levelValue: 800] [[
+  The skin selector .AFSelectShuttleRightEnabledIcon:alias is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.306+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567306] [levelValue: 800] [[
+  The skin selector .AFSelectShuttleRightDisabledIcon:alias is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.306+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567306] [levelValue: 800] [[
+  The skin selector .AFSelectShuttleRightAllEnabledIcon:alias is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.306+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567306] [levelValue: 800] [[
+  The skin selector .AFSelectShuttleRightAllDisabledIcon:alias is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.307+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567307] [levelValue: 800] [[
+  The skin selector .AFSelectShuttleLeftEnabledIcon:alias is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.307+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567307] [levelValue: 800] [[
+  The skin selector .AFSelectShuttleLeftDisabledIcon:alias is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.307+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567307] [levelValue: 800] [[
+  The skin selector .AFSelectShuttleLeftAllEnabledIcon:alias is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.307+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567307] [levelValue: 800] [[
+  The skin selector .AFSelectShuttleLeftAllDisabledIcon:alias is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.308+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567308] [levelValue: 800] [[
+  The skin selector .AFSelectShuttleUpEndDisabledIcon:alias is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.308+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567308] [levelValue: 800] [[
+  The skin selector .AFSelectShuttleUpEndEnabledIcon:alias is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.308+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567308] [levelValue: 800] [[
+  The skin selector .AFSelectShuttleUpEnabledIcon:alias is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.308+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567308] [levelValue: 800] [[
+  The skin selector .AFSelectShuttleUpDisabledIcon:alias is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.309+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567309] [levelValue: 800] [[
+  The skin selector .AFSelectShuttleDownEnabledIcon:alias is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.309+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567309] [levelValue: 800] [[
+  The skin selector .AFSelectShuttleDownDisabledIcon:alias is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.309+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567309] [levelValue: 800] [[
+  The skin selector .AFSelectShuttleDownEndEnabledIcon:alias is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.309+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567309] [levelValue: 800] [[
+  The skin selector .AFSelectShuttleDownEndDisabledIcon:alias is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.327+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567327] [levelValue: 800] [[
+  The skin selector af|body:high-contrast af|selectManyShuttle::move-horizontal-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.327+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567327] [levelValue: 800] [[
+  The skin selector af|body:high-contrast af|selectOrderShuttle::move-horizontal-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.328+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567328] [levelValue: 800] [[
+  The skin selector af|body:high-contrast af|selectManyShuttle::move-horizontal-disabled-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.328+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567328] [levelValue: 800] [[
+  The skin selector af|body:high-contrast af|selectOrderShuttle::move-horizontal-disabled-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.328+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567328] [levelValue: 800] [[
+  The skin selector af|body:high-contrast af|selectManyShuttle::moveall-horizontal-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.328+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567328] [levelValue: 800] [[
+  The skin selector af|body:high-contrast af|selectOrderShuttle::moveall-horizontal-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.329+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567329] [levelValue: 800] [[
+  The skin selector af|body:high-contrast af|selectManyShuttle::moveall-horizontal-disabled-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.329+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567329] [levelValue: 800] [[
+  The skin selector af|body:high-contrast af|selectOrderShuttle::moveall-horizontal-disabled-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.329+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567329] [levelValue: 800] [[
+  The skin selector af|body:high-contrast af|selectManyShuttle::remove-horizontal-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.330+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567330] [levelValue: 800] [[
+  The skin selector af|body:high-contrast af|selectOrderShuttle::remove-horizontal-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.330+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567330] [levelValue: 800] [[
+  The skin selector af|body:high-contrast af|selectManyShuttle::remove-horizontal-disabled-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.330+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567330] [levelValue: 800] [[
+  The skin selector af|body:high-contrast af|selectOrderShuttle::remove-horizontal-disabled-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.331+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567331] [levelValue: 800] [[
+  The skin selector af|body:high-contrast af|selectManyShuttle::removeall-horizontal-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.331+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567331] [levelValue: 800] [[
+  The skin selector af|body:high-contrast af|selectOrderShuttle::removeall-horizontal-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.331+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567331] [levelValue: 800] [[
+  The skin selector af|body:high-contrast af|selectManyShuttle::removeall-horizontal-disabled-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.331+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567331] [levelValue: 800] [[
+  The skin selector af|body:high-contrast af|selectOrderShuttle::removeall-horizontal-disabled-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.332+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567332] [levelValue: 800] [[
+  The skin selector af|body:high-contrast af|selectOrderShuttle::move-top-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.332+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567332] [levelValue: 800] [[
+  The skin selector af|body:high-contrast af|selectOrderShuttle::move-top-disabled-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.332+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567332] [levelValue: 800] [[
+  The skin selector af|body:high-contrast af|selectOrderShuttle::move-up-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.332+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567332] [levelValue: 800] [[
+  The skin selector af|body:high-contrast af|selectOrderShuttle::move-up-disabled-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.333+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567333] [levelValue: 800] [[
+  The skin selector af|body:high-contrast af|selectOrderShuttle::move-down-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.333+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567333] [levelValue: 800] [[
+  The skin selector af|body:high-contrast af|selectOrderShuttle::move-down-disabled-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.333+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567333] [levelValue: 800] [[
+  The skin selector af|body:high-contrast af|selectOrderShuttle::move-bottom-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.333+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567333] [levelValue: 800] [[
+  The skin selector af|body:high-contrast af|selectOrderShuttle::move-bottom-disabled-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.338+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567338] [levelValue: 800] [[
+  The skin selector af|body:high-contrast af|selectManyShuttle::moveall-horizontal-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.339+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567339] [levelValue: 800] [[
+  The skin selector af|body:high-contrast af|selectOrderShuttle::moveall-horizontal-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.339+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567339] [levelValue: 800] [[
+  The skin selector af|body:high-contrast af|selectManyShuttle::moveall-horizontal-disabled-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.339+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567339] [levelValue: 800] [[
+  The skin selector af|body:high-contrast af|selectOrderShuttle::moveall-horizontal-disabled-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.568+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567568] [levelValue: 800] [[
+  The skin selector .AFSelectShuttleRightEnabledIcon:alias is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.569+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567569] [levelValue: 800] [[
+  The skin selector .AFSelectShuttleRightDisabledIcon:alias is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.570+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567570] [levelValue: 800] [[
+  The skin selector .AFSelectShuttleRightAllEnabledIcon:alias is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.570+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567570] [levelValue: 800] [[
+  The skin selector .AFSelectShuttleRightAllDisabledIcon:alias is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.571+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567571] [levelValue: 800] [[
+  The skin selector .AFSelectShuttleLeftEnabledIcon:alias is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.571+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567571] [levelValue: 800] [[
+  The skin selector .AFSelectShuttleLeftDisabledIcon:alias is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.572+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567572] [levelValue: 800] [[
+  The skin selector .AFSelectShuttleLeftAllEnabledIcon:alias is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.572+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567572] [levelValue: 800] [[
+  The skin selector .AFSelectShuttleLeftAllDisabledIcon:alias is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.573+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567573] [levelValue: 800] [[
+  The skin selector .AFSelectShuttleUpEndDisabledIcon:alias is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.573+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567573] [levelValue: 800] [[
+  The skin selector .AFSelectShuttleUpEndEnabledIcon:alias is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.574+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567574] [levelValue: 800] [[
+  The skin selector .AFSelectShuttleUpEnabledIcon:alias is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.574+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567574] [levelValue: 800] [[
+  The skin selector .AFSelectShuttleUpDisabledIcon:alias is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.575+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567575] [levelValue: 800] [[
+  The skin selector .AFSelectShuttleDownEnabledIcon:alias is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.575+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567575] [levelValue: 800] [[
+  The skin selector .AFSelectShuttleDownDisabledIcon:alias is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.576+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567576] [levelValue: 800] [[
+  The skin selector .AFSelectShuttleDownEndEnabledIcon:alias is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.576+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567576] [levelValue: 800] [[
+  The skin selector .AFSelectShuttleDownEndDisabledIcon:alias is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.577+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567577] [levelValue: 800] [[
+  The skin selector af|panelLabelAndMessage::content-cell .AFPanelFormLayoutContentCell af|inputColor::changed-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.578+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567578] [levelValue: 800] [[
+  The skin selector af|panelLabelAndMessage::content-cell .AFPanelFormLayoutContentCell af|inputComboboxListOfValues::changed-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.579+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567579] [levelValue: 800] [[
+  The skin selector af|panelLabelAndMessage::content-cell .AFPanelFormLayoutContentCell af|inputDate::changed-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.579+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567579] [levelValue: 800] [[
+  The skin selector af|panelLabelAndMessage::content-cell .AFPanelFormLayoutContentCell af|inputFile::changed-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.579+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567579] [levelValue: 800] [[
+  The skin selector af|panelLabelAndMessage::content-cell .AFPanelFormLayoutContentCell af|inputListOfValues::changed-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.580+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567580] [levelValue: 800] [[
+  The skin selector af|panelLabelAndMessage::content-cell .AFPanelFormLayoutContentCell af|inputNumberSlider::changed-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.580+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567580] [levelValue: 800] [[
+  The skin selector af|panelLabelAndMessage::content-cell .AFPanelFormLayoutContentCell af|inputNumberSpinbox::changed-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.581+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567581] [levelValue: 800] [[
+  The skin selector af|panelLabelAndMessage::content-cell .AFPanelFormLayoutContentCell af|inputRangeSlider::changed-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.581+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567581] [levelValue: 800] [[
+  The skin selector af|panelLabelAndMessage::content-cell .AFPanelFormLayoutContentCell af|inputSearch::changed-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.581+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567581] [levelValue: 800] [[
+  The skin selector af|panelLabelAndMessage::content-cell .AFPanelFormLayoutContentCell af|inputText::changed-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.582+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567582] [levelValue: 800] [[
+  The skin selector af|panelLabelAndMessage::content-cell .AFPanelFormLayoutContentCell af|richTextEditor::changed-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.582+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567582] [levelValue: 800] [[
+  The skin selector af|panelLabelAndMessage::content-cell .AFPanelFormLayoutContentCell af|codeEditor::changed-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.583+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567583] [levelValue: 800] [[
+  The skin selector af|panelLabelAndMessage::content-cell .AFPanelFormLayoutContentCell af|selectBooleanCheckbox::changed-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.583+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567583] [levelValue: 800] [[
+  The skin selector af|panelLabelAndMessage::content-cell .AFPanelFormLayoutContentCell af|selectBooleanRadio::changed-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.583+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567583] [levelValue: 800] [[
+  The skin selector af|panelLabelAndMessage::content-cell .AFPanelFormLayoutContentCell af|selectManyCheckbox::changed-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.584+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567584] [levelValue: 800] [[
+  The skin selector af|panelLabelAndMessage::content-cell .AFPanelFormLayoutContentCell af|selectManyChoice::changed-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.584+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567584] [levelValue: 800] [[
+  The skin selector af|panelLabelAndMessage::content-cell .AFPanelFormLayoutContentCell af|selectManyListbox::changed-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.585+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567585] [levelValue: 800] [[
+  The skin selector af|panelLabelAndMessage::content-cell .AFPanelFormLayoutContentCell af|selectManyShuttle::changed-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.585+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567585] [levelValue: 800] [[
+  The skin selector af|panelLabelAndMessage::content-cell .AFPanelFormLayoutContentCell af|selectOneChoice::changed-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.585+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567585] [levelValue: 800] [[
+  The skin selector af|panelLabelAndMessage::content-cell .AFPanelFormLayoutContentCell af|selectOneListbox::changed-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.586+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567586] [levelValue: 800] [[
+  The skin selector af|panelLabelAndMessage::content-cell .AFPanelFormLayoutContentCell af|selectOneRadio::changed-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.586+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567586] [levelValue: 800] [[
+  The skin selector af|panelLabelAndMessage::content-cell .AFPanelFormLayoutContentCell af|selectOrderShuttle::changed-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.587+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567587] [levelValue: 800] [[
+  The skin selector af|document::splash-screen-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.602+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567602] [levelValue: 800] [[
+  The skin selector af|showDetail::disclosed-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.602+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567602] [levelValue: 800] [[
+  The skin selector af|showDetail::undisclosed-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.607+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567607] [levelValue: 800] [[
+  The skin selector af|body:high-contrast af|column::sort-ascending-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.608+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567608] [levelValue: 800] [[
+  The skin selector af|body:high-contrast af|column::sort-ascending-icon:active is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.608+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567608] [levelValue: 800] [[
+  The skin selector af|body:high-contrast af|column::sort-descending-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.608+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567608] [levelValue: 800] [[
+  The skin selector af|body:high-contrast af|column::sort-descending-icon:active is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.609+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567609] [levelValue: 800] [[
+  The skin selector af|body:high-contrast af|column::sorted-ascending-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.609+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567609] [levelValue: 800] [[
+  The skin selector af|body:high-contrast af|column::sorted-descending-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.614+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567614] [levelValue: 800] [[
+  The skin selector af|inputColor::launch-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.614+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567614] [levelValue: 800] [[
+  The skin selector af|inputColor::launch-icon:active is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.620+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567620] [levelValue: 800] [[
+  The skin selector .AFChangedIcon:alias is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.621+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567621] [levelValue: 800] [[
+  The skin selector .AFChangedIcon:alias is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.626+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567626] [levelValue: 800] [[
+  The skin selector af|body:high-contrast af|column::sort-ascending-icon:hover is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.626+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567626] [levelValue: 800] [[
+  The skin selector af|body:high-contrast af|column::sort-descending-icon:hover is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.627+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567627] [levelValue: 800] [[
+  The skin selector af|inputColor::launch-icon:hover is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.627+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567627] [levelValue: 800] [[
+  The skin selector af|inputColor::launch-icon:active:hover is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.690+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567690] [levelValue: 800] [[
+  The skin selector af|train::parent-start-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.691+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567691] [levelValue: 800] [[
+  The skin selector af|train::parent-end-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.691+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567691] [levelValue: 800] [[
+  The skin selector af|train-vertical::parent-start-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.691+0000] [Payara 5.2021.8] [INFO] [SELECTOR_SHOULD_NOT_END_IN_ICON] [org.apache.myfaces.trinidadinternal.skin.SkinStyleSheetParserUtils] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567691] [levelValue: 800] [[
+  The skin selector af|train-vertical::parent-end-icon is not a Skin Icon Object since it does not have a content attribute. If you created this selector, please rename it to end with "style" instead of "icon" so that the Skinning Framework will treat it as a style, not an icon.]]
+
+[2021-11-02T13:42:47.882+0000] [Payara 5.2021.8] [WARNING] [] [org.apache.myfaces.trinidadinternal.style.xml.parse.StyleSheetDocument] [tid: _ThreadID=99 _ThreadName=http-thread-pool::http-listener-1(4)] [timeMillis: 1635860567882] [levelValue: 900] [[
+  Circular dependency detected in style af|dvt-timeline]]
+
+[2021-11-02T13:42:49.133+0000] [Payara 5.2021.8] [WARNING] [] [oracle.adf.share.config.MDSConfigFactory] [tid: _ThreadID=97 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1635860569133] [levelValue: 900] [[
+  Empty MDS config list!]]
+
+[2021-11-02T13:42:49.148+0000] [Payara 5.2021.8] [INFO] [] [oracle.adfinternal.controller.state.ControllerState] [tid: _ThreadID=97 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1635860569148] [levelValue: 800] [[
+  ADFc: Limiting the number of RootViewPorts to 20]]
+
+[2021-11-02T13:42:49.163+0000] [Payara 5.2021.8] [INFO] [] [oracle.adfinternal.share.props.ADFPropsSettingsCallback] [tid: _ThreadID=97 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1635860569163] [levelValue: 800] [[
+  Duplicate key:ORACLE.ADF.MODEL.SESSIONDEF.AS exists in file:	Source of property = file
+	Prop File Path= file:/C:/softwork/payara5/glassfish/domains/domain1/lib/adf-share-support.jar!/META-INF/adf-settings.xml
+ with value:SESSION and in file:	Source of property = file
+	Prop File Path= file:/C:/softwork/payara5/glassfish/domains/domain1/lib/adf-share-support.jar!/META-INF/adf-settings.xml
+value = SESSION]]
+
+[2021-11-02T13:42:49.163+0000] [Payara 5.2021.8] [INFO] [] [oracle.adfinternal.share.props.ADFPropsSettingsCallback] [tid: _ThreadID=97 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1635860569163] [levelValue: 800] [[
+  Duplicate key:ORACLE.ADF.MODEL.DEF.MODE exists in file:	Source of property = file
+	Prop File Path= file:/C:/softwork/payara5/glassfish/domains/domain1/lib/adf-share-support.jar!/META-INF/adf-settings.xml
+ with value:SITE and in file:	Source of property = file
+	Prop File Path= file:/C:/softwork/payara5/glassfish/domains/domain1/lib/adf-share-support.jar!/META-INF/adf-settings.xml
+value = SITE]]
+
+[2021-11-02T13:42:49.163+0000] [Payara 5.2021.8] [INFO] [] [oracle.adfinternal.share.props.ADFPropsSettingsCallback] [tid: _ThreadID=97 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1635860569163] [levelValue: 800] [[
+  Duplicate key:ORACLE.ADF.DIAGNOSTICS.EXCEPTION.DUMP.PACKAGE exists in file:	Source of property = file
+	Prop File Path= file:/C:/softwork/payara5/glassfish/domains/domain1/lib/adf-share-support.jar!/META-INF/adf-settings.xml
+ with value:java and in file:	Source of property = file
+	Prop File Path= file:/C:/softwork/payara5/glassfish/domains/domain1/lib/adf-share-support.jar!/META-INF/adf-settings.xml
+value = java]]
+
+[2021-11-02T13:42:49.164+0000] [Payara 5.2021.8] [INFO] [] [oracle.adfinternal.share.props.ADFPropsSettingsCallback] [tid: _ThreadID=97 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1635860569164] [levelValue: 800] [[
+  Duplicate key:ORACLE.JBO.MODEL.APPLY.PDEF.TO.BASE.DEF exists in file:	Source of property = file
+	Prop File Path= file:/C:/softwork/payara5/glassfish/domains/domain1/lib/adf-share-support.jar!/META-INF/adf-settings.xml
+ with value:None and in file:	Source of property = file
+	Prop File Path= file:/C:/softwork/payara5/glassfish/domains/domain1/lib/adf-share-support.jar!/META-INF/adf-settings.xml
+value = None]]
+
+[2021-11-02T13:42:49.164+0000] [Payara 5.2021.8] [INFO] [] [oracle.adfinternal.share.props.ADFPropsSettingsCallback] [tid: _ThreadID=97 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1635860569164] [levelValue: 800] [[
+  Duplicate key:ORACLE.ADF.SHARE.SANDBOX.MDS.OBJECTMERGEENABLED exists in file:	Source of property = file
+	Prop File Path= file:/C:/softwork/payara5/glassfish/domains/domain1/lib/adf-share-support.jar!/META-INF/adf-settings.xml
+ with value:Y and in file:	Source of property = file
+	Prop File Path= file:/C:/softwork/payara5/glassfish/domains/domain1/lib/adf-share-support.jar!/META-INF/adf-settings.xml
+value = Y]]
+
+[2021-11-02T13:42:49.164+0000] [Payara 5.2021.8] [INFO] [] [oracle.adfinternal.share.props.ADFPropsSettingsCallback] [tid: _ThreadID=97 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1635860569164] [levelValue: 800] [[
+  Duplicate key:ORACLE.ADF.SHARE.CONFIG.ENABLEADFSESSIONOPTIONS exists in file:	Source of property = file
+	Prop File Path= file:/C:/softwork/payara5/glassfish/domains/domain1/lib/adf-share-support.jar!/META-INF/adf-settings.xml
+ with value:false and in file:	Source of property = file
+	Prop File Path= file:/C:/softwork/payara5/glassfish/domains/domain1/lib/adf-share-support.jar!/META-INF/adf-settings.xml
+value = false]]
+
+[2021-11-02T13:42:49.164+0000] [Payara 5.2021.8] [INFO] [] [oracle.adfinternal.share.props.ADFPropsSettingsCallback] [tid: _ThreadID=97 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1635860569164] [levelValue: 800] [[
+  Duplicate key:ORACLE.ADF.DIAGNOSTICS.EXCEPTION.DUMP exists in file:	Source of property = file
+	Prop File Path= file:/C:/softwork/payara5/glassfish/domains/domain1/lib/adf-share-support.jar!/META-INF/adf-settings.xml
+ with value:false and in file:	Source of property = file
+	Prop File Path= file:/C:/softwork/payara5/glassfish/domains/domain1/lib/adf-share-support.jar!/META-INF/adf-settings.xml
+value = false]]
+
+[2021-11-02T13:42:49.164+0000] [Payara 5.2021.8] [INFO] [] [oracle.adfinternal.share.props.ADFPropsSettingsCallback] [tid: _ThreadID=97 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1635860569164] [levelValue: 800] [[
+  Duplicate key:ORACLE.ADF.SHARE.SANDBOX.CONFIG.ERNCHECKENABLED exists in file:	Source of property = file
+	Prop File Path= file:/C:/softwork/payara5/glassfish/domains/domain1/lib/adf-share-support.jar!/META-INF/adf-settings.xml
+ with value:false and in file:	Source of property = file
+	Prop File Path= file:/C:/softwork/payara5/glassfish/domains/domain1/lib/adf-share-support.jar!/META-INF/adf-settings.xml
+value = false]]
+
+[2021-11-02T13:42:49.165+0000] [Payara 5.2021.8] [INFO] [] [oracle.adfinternal.share.props.ADFPropsSettingsCallback] [tid: _ThreadID=97 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1635860569165] [levelValue: 800] [[
+  Duplicate key:ORACLE.ADF.BC4J.CONFIG.MBEANS.ENABLED exists in file:	Source of property = file
+	Prop File Path= file:/C:/softwork/payara5/glassfish/domains/domain1/lib/bc4j-mbeans.jar!/META-INF/adf-settings.xml
+ with value:false and in file:	Source of property = file
+	Prop File Path= file:/C:/softwork/payara5/glassfish/domains/domain1/lib/bc4j-mbeans.jar!/META-INF/adf-settings.xml
+value = false]]
+
+[2021-11-02T13:42:49.165+0000] [Payara 5.2021.8] [INFO] [] [oracle.adfinternal.share.props.ADFPropsSettingsCallback] [tid: _ThreadID=97 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1635860569165] [levelValue: 800] [[
+  Duplicate key:ORACLE.ADF.SHARE.RESOURCEBUNDLE.ISCUSTOMIZATIONMODE exists in file:	Source of property = file
+	Prop File Path= file:/C:/softwork/payara5/glassfish/domains/domain1/lib/resourcebundle.jar!/META-INF/adf-settings.xml
+ with value:FALSE and in file:	Source of property = file
+	Prop File Path= file:/C:/softwork/payara5/glassfish/domains/domain1/lib/resourcebundle.jar!/META-INF/adf-settings.xml
+value = FALSE]]
+
+[2021-11-02T13:42:49.165+0000] [Payara 5.2021.8] [INFO] [] [oracle.adfinternal.share.props.ADFPropsSettingsCallback] [tid: _ThreadID=97 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1635860569165] [levelValue: 800] [[
+  Duplicate key:ORACLE.ADF.SHARE.USERINTERFACETEXT.BASEBUNDLE.CACHE.SIZE exists in file:	Source of property = file
+	Prop File Path= file:/C:/softwork/payara5/glassfish/domains/domain1/lib/resourcebundle.jar!/META-INF/adf-settings.xml
+ with value:750 and in file:	Source of property = file
+	Prop File Path= file:/C:/softwork/payara5/glassfish/domains/domain1/lib/resourcebundle.jar!/META-INF/adf-settings.xml
+value = 750]]
+
+[2021-11-02T13:42:49.165+0000] [Payara 5.2021.8] [INFO] [] [oracle.adfinternal.share.props.ADFPropsSettingsCallback] [tid: _ThreadID=97 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1635860569165] [levelValue: 800] [[
+  Duplicate key:ORACLE.ADF.BC4J.CONFIG.MBEANS.ENABLED exists in file:	Source of property = file
+	Prop File Path= file:/C:/softwork/payara5/glassfish/domains/domain1/applications/RemoteTaskFlowProducer/lib/bc4j-mbeans.jar!/META-INF/adf-settings.xml
+ with value:false and in file:	Source of property = file
+	Prop File Path= file:/C:/softwork/payara5/glassfish/domains/domain1/lib/bc4j-mbeans.jar!/META-INF/adf-settings.xml
+value = false]]
+
+[2021-11-02T13:42:49.220+0000] [Payara 5.2021.8] [NOTIFICATION] [] [oracle.mds] [tid: _ThreadID=97 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1635860569220] [levelValue: 800] [[
+  MDS-11026: Ignoring the duplicate MDS component configuration file URL "jar:file:/C:/softwork/payara5/glassfish/domains/domain1/lib/adf-share-ca.jar!/META-INF/mds-config.xml" found on the classpath.]]
+
+[2021-11-02T13:42:49.220+0000] [Payara 5.2021.8] [NOTIFICATION] [] [oracle.mds] [tid: _ThreadID=97 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1635860569220] [levelValue: 800] [[
+  MDS-11026: Ignoring the duplicate MDS component configuration file URL "jar:file:/C:/softwork/payara5/glassfish/domains/domain1/lib/adf-share-support.jar!/META-INF/mds-config.xml" found on the classpath.]]
+
+[2021-11-02T13:42:49.220+0000] [Payara 5.2021.8] [NOTIFICATION] [] [oracle.mds] [tid: _ThreadID=97 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1635860569220] [levelValue: 800] [[
+  MDS-11026: Ignoring the duplicate MDS component configuration file URL "jar:file:/C:/softwork/payara5/glassfish/domains/domain1/lib/adfm.jar!/META-INF/mds-config.xml" found on the classpath.]]
+
+[2021-11-02T13:42:49.220+0000] [Payara 5.2021.8] [NOTIFICATION] [] [oracle.mds] [tid: _ThreadID=97 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1635860569220] [levelValue: 800] [[
+  MDS-11026: Ignoring the duplicate MDS component configuration file URL "jar:file:/C:/softwork/payara5/glassfish/domains/domain1/lib/adfsharembean.jar!/META-INF/mds-config.xml" found on the classpath.]]
+
+[2021-11-02T13:42:49.220+0000] [Payara 5.2021.8] [NOTIFICATION] [] [oracle.mds] [tid: _ThreadID=97 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1635860569220] [levelValue: 800] [[
+  MDS-11026: Ignoring the duplicate MDS component configuration file URL "jar:file:/C:/softwork/payara5/glassfish/domains/domain1/lib/mdsrt.jar!/META-INF/mds-config.xml" found on the classpath.]]
+
+[2021-11-02T13:42:49.220+0000] [Payara 5.2021.8] [NOTIFICATION] [] [oracle.mds] [tid: _ThreadID=97 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1635860569220] [levelValue: 800] [[
+  MDS-11026: Ignoring the duplicate MDS component configuration file URL "jar:file:/C:/softwork/payara5/glassfish/domains/domain1/lib/resourcebundle.jar!/META-INF/mds-config.xml" found on the classpath.]]
+
+[2021-11-02T13:42:49.245+0000] [Payara 5.2021.8] [WARNING] [] [oracle.mds] [tid: _ThreadID=97 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1635860569245] [levelValue: 900] [[
+  MDS-01393: Multiple audit events named "CreateViewObject" are defined for component "ADF".]]
+
+[2021-11-02T13:42:49.245+0000] [Payara 5.2021.8] [WARNING] [] [oracle.mds] [tid: _ThreadID=97 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1635860569245] [levelValue: 900] [[
+  MDS-01393: Multiple audit events named "RemoveViewObject" are defined for component "ADF".]]
+
+[2021-11-02T13:42:49.246+0000] [Payara 5.2021.8] [WARNING] [] [oracle.mds] [tid: _ThreadID=97 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1635860569246] [levelValue: 900] [[
+  MDS-01393: Multiple audit events named "AddViewLinkDef" are defined for component "ADF".]]
+
+[2021-11-02T13:42:49.246+0000] [Payara 5.2021.8] [WARNING] [] [oracle.mds] [tid: _ThreadID=97 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1635860569246] [levelValue: 900] [[
+  MDS-01393: Multiple audit events named "RemoveViewLinkDef" are defined for component "ADF".]]
+
+[2021-11-02T13:42:49.246+0000] [Payara 5.2021.8] [WARNING] [] [oracle.mds] [tid: _ThreadID=97 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1635860569246] [levelValue: 900] [[
+  MDS-01393: Multiple audit events named "AddAttributeDef" are defined for component "ADF".]]
+
+[2021-11-02T13:42:49.246+0000] [Payara 5.2021.8] [WARNING] [] [oracle.mds] [tid: _ThreadID=97 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1635860569246] [levelValue: 900] [[
+  MDS-01393: Multiple audit events named "AddTrigger" are defined for component "ADF".]]
+
+[2021-11-02T13:42:49.246+0000] [Payara 5.2021.8] [WARNING] [] [oracle.mds] [tid: _ThreadID=97 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1635860569246] [levelValue: 900] [[
+  MDS-01393: Multiple audit events named "AddValidator" are defined for component "ADF".]]
+
+[2021-11-02T13:42:49.246+0000] [Payara 5.2021.8] [WARNING] [] [oracle.mds] [tid: _ThreadID=97 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1635860569246] [levelValue: 900] [[
+  MDS-01393: Multiple audit events named "RemoveTrigger" are defined for component "ADF".]]
+
+[2021-11-02T13:42:49.246+0000] [Payara 5.2021.8] [WARNING] [] [oracle.mds] [tid: _ThreadID=97 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1635860569246] [levelValue: 900] [[
+  MDS-01393: Multiple audit events named "RemoveValidator" are defined for component "ADF".]]
+
+[2021-11-02T13:42:49.246+0000] [Payara 5.2021.8] [WARNING] [] [oracle.mds] [tid: _ThreadID=97 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1635860569246] [levelValue: 900] [[
+  MDS-01393: Multiple audit events named "CreateViewObject" are defined for component "ADF".]]
+
+[2021-11-02T13:42:49.247+0000] [Payara 5.2021.8] [WARNING] [] [oracle.mds] [tid: _ThreadID=97 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1635860569247] [levelValue: 900] [[
+  MDS-01393: Multiple audit events named "RemoveViewObject" are defined for component "ADF".]]
+
+[2021-11-02T13:42:49.247+0000] [Payara 5.2021.8] [WARNING] [] [oracle.mds] [tid: _ThreadID=97 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1635860569247] [levelValue: 900] [[
+  MDS-01393: Multiple audit events named "AddViewLinkDef" are defined for component "ADF".]]
+
+[2021-11-02T13:42:49.247+0000] [Payara 5.2021.8] [WARNING] [] [oracle.mds] [tid: _ThreadID=97 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1635860569247] [levelValue: 900] [[
+  MDS-01393: Multiple audit events named "RemoveViewLinkDef" are defined for component "ADF".]]
+
+[2021-11-02T13:42:49.247+0000] [Payara 5.2021.8] [WARNING] [] [oracle.mds] [tid: _ThreadID=97 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1635860569247] [levelValue: 900] [[
+  MDS-01393: Multiple audit events named "AddAttributeDef" are defined for component "ADF".]]
+
+[2021-11-02T13:42:49.247+0000] [Payara 5.2021.8] [WARNING] [] [oracle.mds] [tid: _ThreadID=97 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1635860569247] [levelValue: 900] [[
+  MDS-01393: Multiple audit events named "AddTrigger" are defined for component "ADF".]]
+
+[2021-11-02T13:42:49.247+0000] [Payara 5.2021.8] [WARNING] [] [oracle.mds] [tid: _ThreadID=97 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1635860569247] [levelValue: 900] [[
+  MDS-01393: Multiple audit events named "AddValidator" are defined for component "ADF".]]
+
+[2021-11-02T13:42:49.247+0000] [Payara 5.2021.8] [WARNING] [] [oracle.mds] [tid: _ThreadID=97 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1635860569247] [levelValue: 900] [[
+  MDS-01393: Multiple audit events named "RemoveTrigger" are defined for component "ADF".]]
+
+[2021-11-02T13:42:49.247+0000] [Payara 5.2021.8] [WARNING] [] [oracle.mds] [tid: _ThreadID=97 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1635860569247] [levelValue: 900] [[
+  MDS-01393: Multiple audit events named "RemoveValidator" are defined for component "ADF".]]
+
+[2021-11-02T13:42:49.249+0000] [Payara 5.2021.8] [NOTIFICATION] [] [oracle.mds] [tid: _ThreadID=97 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1635860569249] [levelValue: 800] [[
+  MDS-11105: Unable to instantiate Coherence cache provider because Coherence classes are not available on the classpath. SimpleCache will be used instead."]]
+
+[2021-11-02T13:42:49.540+0000] [Payara 5.2021.8] [INFO] [] [oracle.adfinternal.view.rich.remote.CachedOutputStream] [tid: _ThreadID=97 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1635860569540] [levelValue: 800] [[
+  Initialized Remote CachedOutputStream (maxMem=12288,maxDisk=-1,dir=C:\softwork\payara5\glassfish\domains\domain1\generated\jsp\RemoteTaskFlowProducer\RemoteTaskFlowProducer_war)]]
+
+[2021-11-02T13:42:49.549+0000] [Payara 5.2021.8] [WARNING] [PANEL_GRID_LAYOUT_CIRCULAR_HEIGHT_DEFINITION_1] [oracle.adfinternal.view.faces.renderkit.rich.PanelGridLayoutRenderer] [tid: _ThreadID=97 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1635860569549] [levelValue: 900] [[
+  Illegal circular height definition detected in panelGridLayout clientId="r1:0:r1:0:pgl1". This component is not stretched by its parent nor does it have a fixed inlineStyle height but a gridRow inside is using a percentage height="100%".]]
+
+[2021-11-02T13:42:49.549+0000] [Payara 5.2021.8] [WARNING] [PANEL_GRID_LAYOUT_CIRCULAR_HEIGHT_DEFINITION_2] [oracle.adfinternal.view.faces.renderkit.rich.PanelGridLayoutRenderer] [tid: _ThreadID=97 _ThreadName=http-thread-pool::http-listener-1(2)] [timeMillis: 1635860569549] [levelValue: 900] [[
+  Illegal circular height definition detected in panelGridLayout clientId="r1:0:r1:0:pgl1". Forcing valign="top" (instead of "stretch") because gridCell id="gc3" is within a row span where every row uses height="auto"; cannot stretch vertically and be as tall as the contents at the same time.]]
+
+[2021-11-02T13:54:23.860+0000] [Payara 5.2021.8] [SEVERE] [] [oracle.adfinternal.view.faces.webapp.rich.ServletWindowManager] [tid: _ThreadID=100 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1635861263860] [levelValue: 1000] [[
+  No window specified in request]]
+
+[2021-11-02T13:54:23.865+0000] [Payara 5.2021.8] [WARNING] [AS-WEB-CORE-00059] [javax.enterprise.web.core] [tid: _ThreadID=100 _ThreadName=http-thread-pool::http-listener-1(5)] [timeMillis: 1635861263865] [levelValue: 900] [[
+  Unable to set request character encoding to UTF-8 from context /RemoteTaskFlowProducer, because request parameters have already been read, or ServletRequest.getReader() has already been called]]
+
+[2021-11-02T14:05:07.004+0000] [Payara 5.2021.8] [INFO] [] [oracle.adf.share.ADFContext.applicationScope] [tid: _ThreadID=431 _ThreadName=ContainerBackgroundProcessor[StandardEngine[glassfish-web].StandardHost[server].StandardContext[/RemoteTaskFlowProducer]]] [timeMillis: 1635861907004] [levelValue: 800] [[
+  adding applicationScope with key oracle.adf.share.config.ADFConfigImpl@54cbc8fa]]
+
+[2021-11-02T14:05:59.110+0000] [Payara 5.2021.8] [INFO] [NCLS-REST-00001] [javax.enterprise.admin.rest] [tid: _ThreadID=459 _ThreadName=admin-thread-pool::admin-listener(9)] [timeMillis: 1635861959110] [levelValue: 800] [[
+  Listening to REST requests at context: /command/domain.]]
+
+[2021-11-02T14:05:59.149+0000] [Payara 5.2021.8] [INFO] [NCLS-CORE-00092] [javax.enterprise.system.core] [tid: _ThreadID=683 _ThreadName=Thread-43] [timeMillis: 1635861959149] [levelValue: 800] [[
+  Server shutdown initiated]]
+
+[2021-11-02T14:05:59.157+0000] [Payara 5.2021.8] [INFO] [] [] [tid: _ThreadID=683 _ThreadName=Thread-43] [timeMillis: 1635861959157] [levelValue: 800] [[
+  FileMonitoring shutdown]]
+
+[2021-11-02T14:05:59.173+0000] [Payara 5.2021.8] [INFO] [NCLS-JMX-00002] [javax.enterprise.system.jmx] [tid: _ThreadID=683 _ThreadName=Thread-43] [timeMillis: 1635861959173] [levelValue: 800] [[
+  JMXStartupService: Stopped JMXConnectorServer: null]]
+
+[2021-11-02T14:05:59.173+0000] [Payara 5.2021.8] [INFO] [NCLS-JMX-00001] [javax.enterprise.system.jmx] [tid: _ThreadID=683 _ThreadName=Thread-43] [timeMillis: 1635861959173] [levelValue: 800] [[
+  JMXStartupService and JMXConnectors have been shut down.]]
+
+[2021-11-02T14:05:59.248+0000] [Payara 5.2021.8] [WARNING] [] [oracle.adf.share.config.MDSConfigFactory] [tid: _ThreadID=687 _ThreadName=RunLevelControllerThread-1635861959216] [timeMillis: 1635861959248] [levelValue: 900] [[
+  Empty MDS config list!]]
+
+[2021-11-02T14:05:59.260+0000] [Payara 5.2021.8] [INFO] [] [oracle.adf.share.config.ADFConfigFactory] [tid: _ThreadID=687 _ThreadName=RunLevelControllerThread-1635861959216] [timeMillis: 1635861959260] [levelValue: 800] [[
+  Calling ADF Config instance implementation: class oracle.adf.share.config.ADFConfigImpl.releaseResources()]]
+
+[2021-11-02T14:05:59.261+0000] [Payara 5.2021.8] [WARNING] [] [oracle.adf.share.http.ServletADFContext] [tid: _ThreadID=687 _ThreadName=RunLevelControllerThread-1635861959216] [timeMillis: 1635861959261] [levelValue: 900] [[
+  Found oracle.adf.share.DefaultContext sticking to oldContext, while the current application is GlassfishTestApp]]
+
+[2021-11-02T14:05:59.269+0000] [Payara 5.2021.8] [INFO] [] [oracle.adf.share.ADFContext.applicationScope] [tid: _ThreadID=687 _ThreadName=RunLevelControllerThread-1635861959216] [timeMillis: 1635861959269] [levelValue: 800] [[
+  removing applicationScope with key org.apache.catalina.core.ApplicationContextFacade@6070bb85]]
+
+[2021-11-02T14:05:59.269+0000] [Payara 5.2021.8] [INFO] [] [oracle.adf.share.ADFContext.applicationScope] [tid: _ThreadID=687 _ThreadName=RunLevelControllerThread-1635861959216] [timeMillis: 1635861959269] [levelValue: 800] [[
+  removing applicationScope with key org.apache.catalina.core.ApplicationContextFacade@6070bb85]]
+
+[2021-11-02T14:05:59.269+0000] [Payara 5.2021.8] [INFO] [] [oracle.adf.share.config.ADFConfigFactory] [tid: _ThreadID=687 _ThreadName=RunLevelControllerThread-1635861959216] [timeMillis: 1635861959269] [levelValue: 800] [[
+  applications size=5]]
+
+[2021-11-02T14:05:59.269+0000] [Payara 5.2021.8] [INFO] [] [oracle.adf.share.config.ADFConfigFactory] [tid: _ThreadID=687 _ThreadName=RunLevelControllerThread-1635861959216] [timeMillis: 1635861959269] [levelValue: 800] [[
+  Calling ADF Config instance implementation: class oracle.adf.share.config.ADFConfigImpl.releaseResources()]]
+
+[2021-11-02T14:05:59.271+0000] [Payara 5.2021.8] [WARNING] [] [oracle.adf.share.http.ServletADFContext] [tid: _ThreadID=687 _ThreadName=RunLevelControllerThread-1635861959216] [timeMillis: 1635861959271] [levelValue: 900] [[
+  Found oracle.adf.share.DefaultContext sticking to oldContext, while the current application is GlassfishTestApp]]
+
+[2021-11-02T14:05:59.273+0000] [Payara 5.2021.8] [INFO] [] [oracle.adf.share.ADFContext.applicationScope] [tid: _ThreadID=687 _ThreadName=RunLevelControllerThread-1635861959216] [timeMillis: 1635861959273] [levelValue: 800] [[
+  removing applicationScope with key org.apache.catalina.core.ApplicationContextFacade@35c6b6d1]]
+
+[2021-11-02T14:05:59.273+0000] [Payara 5.2021.8] [INFO] [] [oracle.adf.share.ADFContext.applicationScope] [tid: _ThreadID=687 _ThreadName=RunLevelControllerThread-1635861959216] [timeMillis: 1635861959273] [levelValue: 800] [[
+  removing applicationScope with key org.apache.catalina.core.ApplicationContextFacade@35c6b6d1]]
+
+[2021-11-02T14:05:59.274+0000] [Payara 5.2021.8] [INFO] [] [oracle.adf.share.config.ADFConfigFactory] [tid: _ThreadID=687 _ThreadName=RunLevelControllerThread-1635861959216] [timeMillis: 1635861959274] [levelValue: 800] [[
+  applications size=4]]
+
+[2021-11-02T14:05:59.308+0000] [Payara 5.2021.8] [WARNING] [] [oracle.adf.share.config.MDSConfigFactory] [tid: _ThreadID=687 _ThreadName=RunLevelControllerThread-1635861959216] [timeMillis: 1635861959308] [levelValue: 900] [[
+  Empty MDS config list!]]
+
+[2021-11-02T14:05:59.315+0000] [Payara 5.2021.8] [INFO] [] [oracle.adf.share.ADFContext.applicationScope] [tid: _ThreadID=687 _ThreadName=RunLevelControllerThread-1635861959216] [timeMillis: 1635861959315] [levelValue: 800] [[
+  adding applicationScope with key oracle.adf.share.config.ADFConfigImpl@384539fa]]
+
+[2021-11-02T14:05:59.365+0000] [Payara 5.2021.8] [WARNING] [] [oracle.adf.share.config.MDSConfigFactory] [tid: _ThreadID=687 _ThreadName=RunLevelControllerThread-1635861959216] [timeMillis: 1635861959365] [levelValue: 900] [[
+  Empty MDS config list!]]
+
+[2021-11-02T14:05:59.372+0000] [Payara 5.2021.8] [INFO] [] [oracle.adf.share.ADFContext.applicationScope] [tid: _ThreadID=687 _ThreadName=RunLevelControllerThread-1635861959216] [timeMillis: 1635861959372] [levelValue: 800] [[
+  adding applicationScope with key oracle.adf.share.config.ADFConfigImpl@3a1e1bbd]]
+
+[2021-11-02T14:05:59.377+0000] [Payara 5.2021.8] [WARNING] [] [oracle.adf.view.rich.remote.RemoteApplicationMap] [tid: _ThreadID=687 _ThreadName=RunLevelControllerThread-1635861959216] [timeMillis: 1635861959377] [levelValue: 900] [[
+  FacesContext is null.]]
+
+[2021-11-02T14:05:59.377+0000] [Payara 5.2021.8] [WARNING] [RR_INVALID_SESSION_NULL] [oracle.adf.view.rich.remote.RemoteApplicationUtils] [tid: _ThreadID=687 _ThreadName=RunLevelControllerThread-1635861959216] [timeMillis: 1635861959377] [levelValue: 900] [[
+  Session invalid for producer at http://florin:8080/RemoteTaskFlowProducer/rr/, stored session 0e35c0064a0400cd288247d2e68e.]]
+
+[2021-11-02T14:05:59.377+0000] [Payara 5.2021.8] [WARNING] [] [oracle.adf.view.rich.remote.RemoteApplicationMap] [tid: _ThreadID=687 _ThreadName=RunLevelControllerThread-1635861959216] [timeMillis: 1635861959377] [levelValue: 900] [[
+  FacesContext is null.]]
+
+[2021-11-02T14:05:59.417+0000] [Payara 5.2021.8] [SEVERE] [] [javax.enterprise.web.util] [tid: _ThreadID=687 _ThreadName=RunLevelControllerThread-1635861959216] [timeMillis: 1635861959417] [levelValue: 1000] [[
+  The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@6c3c236]) and a value of type [org.glassfish.admingui.theme.AdminguiThemeContext] (value [org.glassfish.admingui.theme.AdminguiThemeContext@1c932960]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.]]
+
+[2021-11-02T14:05:59.418+0000] [Payara 5.2021.8] [SEVERE] [] [javax.enterprise.web.util] [tid: _ThreadID=687 _ThreadName=RunLevelControllerThread-1635861959216] [timeMillis: 1635861959418] [levelValue: 1000] [[
+  The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@6c3c236]) and a value of type [org.glassfish.admingui.theme.AdminguiThemeContext] (value [org.glassfish.admingui.theme.AdminguiThemeContext@1c932960]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.]]
+
+[2021-11-02T14:05:59.418+0000] [Payara 5.2021.8] [SEVERE] [] [javax.enterprise.web.util] [tid: _ThreadID=687 _ThreadName=RunLevelControllerThread-1635861959216] [timeMillis: 1635861959418] [levelValue: 1000] [[
+  The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@6c3c236]) and a value of type [org.glassfish.admingui.theme.AdminguiThemeContext] (value [org.glassfish.admingui.theme.AdminguiThemeContext@1c932960]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.]]
+
+[2021-11-02T14:05:59.418+0000] [Payara 5.2021.8] [SEVERE] [] [javax.enterprise.web.util] [tid: _ThreadID=687 _ThreadName=RunLevelControllerThread-1635861959216] [timeMillis: 1635861959418] [levelValue: 1000] [[
+  The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@6c3c236]) and a value of type [org.glassfish.admingui.theme.AdminguiThemeContext] (value [org.glassfish.admingui.theme.AdminguiThemeContext@1c932960]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.]]
+
+[2021-11-02T14:05:59.418+0000] [Payara 5.2021.8] [SEVERE] [] [javax.enterprise.web.util] [tid: _ThreadID=687 _ThreadName=RunLevelControllerThread-1635861959216] [timeMillis: 1635861959418] [levelValue: 1000] [[
+  The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@6c3c236]) and a value of type [org.glassfish.admingui.theme.AdminguiThemeContext] (value [org.glassfish.admingui.theme.AdminguiThemeContext@1c932960]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.]]
+
+[2021-11-02T14:05:59.418+0000] [Payara 5.2021.8] [SEVERE] [] [javax.enterprise.web.util] [tid: _ThreadID=687 _ThreadName=RunLevelControllerThread-1635861959216] [timeMillis: 1635861959418] [levelValue: 1000] [[
+  The web application [] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@6c3c236]) and a value of type [org.glassfish.admingui.theme.AdminguiThemeContext] (value [org.glassfish.admingui.theme.AdminguiThemeContext@1c932960]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.]]
+
+[2021-11-02T14:05:59.427+0000] [Payara 5.2021.8] [INFO] [] [fish.payara.nucleus.hazelcast.HazelcastCore] [tid: _ThreadID=687 _ThreadName=RunLevelControllerThread-1635861959216] [timeMillis: 1635861959427] [levelValue: 800] [[
+  Hazelcast Instance Unbound from JNDI at payara/Hazelcast]]
+
+[2021-11-02T14:05:59.427+0000] [Payara 5.2021.8] [INFO] [] [fish.payara.nucleus.hazelcast.HazelcastCore] [tid: _ThreadID=687 _ThreadName=RunLevelControllerThread-1635861959216] [timeMillis: 1635861959427] [levelValue: 800] [[
+  JSR107 Caching Provider Unbound from JNDI at payara/CachingProvider]]
+
+[2021-11-02T14:05:59.428+0000] [Payara 5.2021.8] [INFO] [] [fish.payara.nucleus.hazelcast.HazelcastCore] [tid: _ThreadID=687 _ThreadName=RunLevelControllerThread-1635861959216] [timeMillis: 1635861959428] [levelValue: 800] [[
+  JSR107 Cache Manager Unbound from JNDI at payara/CacheManager]]
+
+[2021-11-02T14:05:59.478+0000] [Payara 5.2021.8] [INFO] [] [fish.payara.nucleus.hazelcast.HazelcastCore] [tid: _ThreadID=687 _ThreadName=RunLevelControllerThread-1635861959216] [timeMillis: 1635861959478] [levelValue: 800] [[
+  Shutdown Hazelcast]]
+
+[2021-11-02T14:05:59.500+0000] [Payara 5.2021.8] [INFO] [] [] [tid: _ThreadID=687 _ThreadName=RunLevelControllerThread-1635861959216] [timeMillis: 1635861959500] [levelValue: 800] [[
+  JdbcRuntimeExtension,  getAllSystemRAResourcesAndPools = [GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcResource, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool, GlassFishConfigBean.org.glassfish.jdbc.config.JdbcConnectionPool]]]
+
