@@ -46,64 +46,201 @@
     <connector-resource pool-name="jms/__defaultConnectionFactory-Connection-Pool" object-type="system-all-req" jndi-name="jms/__defaultConnectionFactory"></connector-resource>
     <context-service object-type="system-all" jndi-name="concurrent/__defaultContextService"></context-service>
     <managed-thread-factory object-type="system-all" jndi-name="concurrent/__defaultManagedThreadFactory"></managed-thread-factory>
-    <jdbc-connection-pool pooling="false" log-jdbc-calls="true" datasource-classname="oracle.jdbc.pool.OracleDataSource" name="InsisDS" res-type="javax.sql.DataSource">
-      <property name="User" value="INSIS_GEN_V10_RLS"></property>
-      <property name="MaxStatements" value="0"></property>
-      <property name="ImplicitCachingEnabled" value="false"></property>
-      <property name="NetworkProtocol" value="tcp"></property>
-      <property name="URL" value="jdbc:oracle:thin:@10.3.4.56:1521/INSISPDB"></property>
-      <property name="DataSourceName" value="OracleDataSource"></property>
-      <property name="LoginTimeout" value="0"></property>
-      <property name="PortNumber" value="0"></property>
-      <property name="ExplicitCachingEnabled" value="false"></property>
-      <property name="Password" value="insis_gen_v10_rls"></property>
-    </jdbc-connection-pool>
-    <jdbc-resource pool-name="InsisDS" jndi-name="jdbc/InsisDS"></jdbc-resource>
-    <jdbc-resource pool-name="InsisDS" jndi-name="jdbc/InternalInsisDS"></jdbc-resource>
-    <jdbc-resource pool-name="InsisDS" jndi-name="jdbc/InsisCommonDS"></jdbc-resource>
-    <jdbc-connection-pool datasource-classname="oracle.jdbc.pool.OracleDataSource" name="InsisBillingCollectionModule" res-type="javax.sql.DataSource">
-      <property name="User" value="insis_gen_blc_v10_rls"></property>
-      <property name="MaxStatements" value="0"></property>
-      <property name="ImplicitCachingEnabled" value="false"></property>
-      <property name="NetworkProtocol" value="tcp"></property>
-      <property name="URL" value="jdbc:oracle:thin:@10.3.4.55:1521/INSISPDB"></property>
-      <property name="DataSourceName" value="OracleDataSource"></property>
-      <property name="LoginTimeout" value="0"></property>
-      <property name="PortNumber" value="0"></property>
-      <property name="ExplicitCachingEnabled" value="false"></property>
-      <property name="Password" value="insis_gen_blc_v10_rls"></property>
-    </jdbc-connection-pool>
-    <jdbc-resource pool-name="InsisBillingCollectionModule" jndi-name="jdbc/InsisBillingCollectionModuleDS"></jdbc-resource>
-    <jdbc-resource pool-name="InsisDS" jndi-name="jdbc/InsisVFUComposerDS"></jdbc-resource>
-    <jdbc-connection-pool datasource-classname="oracle.jdbc.pool.OracleDataSource" name="InsisJbpmDS" wrap-jdbc-objects="false" res-type="javax.sql.DataSource">
-      <property name="User" value="insis_bpmx"></property>
-      <property name="MaxStatements" value="0"></property>
-      <property name="ImplicitCachingEnabled" value="false"></property>
-      <property name="NetworkProtocol" value="tcp"></property>
-      <property name="URL" value="jdbc:oracle:thin:@10.3.4.55:1521/INSISPDB"></property>
-      <property name="DataSourceName" value="OracleDataSource"></property>
-      <property name="LoginTimeout" value="0"></property>
-      <property name="PortNumber" value="0"></property>
-      <property name="ExplicitCachingEnabled" value="false"></property>
-      <property name="Password" value="insis_bpmx"></property>
-    </jdbc-connection-pool>
-    <jdbc-resource pool-name="InsisJbpmDS" jndi-name="jdbc/InsisJbpmDS"></jdbc-resource>
-    <jdbc-connection-pool datasource-classname="oracle.jdbc.pool.OracleDataSource" name="InsisAQMaintenanceDS" res-type="javax.sql.DataSource">
-      <property name="User" value="insis_sys_v10"></property>
-      <property name="MaxStatements" value="0"></property>
-      <property name="ImplicitCachingEnabled" value="false"></property>
-      <property name="NetworkProtocol" value="tcp"></property>
-      <property name="URL" value="jdbc:oracle:thin:@10.3.4.55:1521/INSISPDB"></property>
-      <property name="DataSourceName" value="OracleDataSource"></property>
-      <property name="LoginTimeout" value="0"></property>
-      <property name="PortNumber" value="0"></property>
-      <property name="ExplicitCachingEnabled" value="false"></property>
-      <property name="Password" value="insis_sys_v10"></property>
-    </jdbc-connection-pool>
-    <jdbc-resource pool-name="InsisAQMaintenanceDS" jndi-name="jdbc/InsisAQMaintenanceDS"></jdbc-resource>
-    <jdbc-resource pool-name="InsisDS" jndi-name="jdbc/InsisPolicyGenDS"></jdbc-resource>
-    <jdbc-resource pool-name="InsisDS" jndi-name="jdbc/InsisPolicyCommonDS"></jdbc-resource>
-    <jdbc-resource pool-name="InsisDS" jndi-name="jdbc/InsisClaimsCSTDS"></jdbc-resource>
+<jdbc-connection-pool datasource-classname="oracle.jdbc.pool.OracleDataSource" name="InternalInsisDS" wrap-jdbc-objects="false" res-type="javax.sql.DataSource">
+    <property name="User" value="insis_gen_v10_rls"></property>
+    <property name="MaxStatements" value="0"></property>
+    <property name="ImplicitCachingEnabled" value="false"></property>
+    <property name="NetworkProtocol" value="tcp"></property>
+    <property name="URL" value="jdbc:oracle:thin:@10.3.4.55:1521/INSISPDB"></property>
+    <property name="DataSourceName" value="OracleDataSource"></property>
+    <property name="LoginTimeout" value="0"></property>
+    <property name="PortNumber" value="0"></property>
+    <property name="ExplicitCachingEnabled" value="false"></property>
+    <property name="Password" value="insis_gen_v10_rls"></property>
+  </jdbc-connection-pool>
+  <jdbc-connection-pool datasource-classname="oracle.jdbc.pool.OracleDataSource" name="InsisBillingCollectionModuleDS" wrap-jdbc-objects="false" res-type="javax.sql.DataSource">
+    <property name="User" value="insis_gen_blc_v10_rls"></property>
+    <property name="MaxStatements" value="0"></property>
+    <property name="ImplicitCachingEnabled" value="false"></property>
+    <property name="NetworkProtocol" value="tcp"></property>
+    <property name="URL" value="jdbc:oracle:thin:@10.3.4.55:1521/INSISPDB"></property>
+    <property name="DataSourceName" value="OracleDataSource"></property>
+    <property name="LoginTimeout" value="0"></property>
+    <property name="PortNumber" value="0"></property>
+    <property name="ExplicitCachingEnabled" value="false"></property>
+    <property name="Password" value="insis_gen_blc_v10_rls"></property>
+  </jdbc-connection-pool>
+  <jdbc-resource pool-name="InternalInsisDS" jndi-name="jdbc/InternalInsisDS"></jdbc-resource>
+  <jdbc-resource pool-name="InsisBillingCollectionModuleDS" jndi-name="jdbc/InsisBillingCollectionModuleDS"></jdbc-resource>
+  <jdbc-connection-pool datasource-classname="oracle.jdbc.pool.OracleDataSource" name="InsisConfigCommonDS" wrap-jdbc-objects="false" res-type="javax.sql.DataSource">
+    <property name="User" value="insis_gen_v10_rls"></property>
+    <property name="MaxStatements" value="0"></property>
+    <property name="ImplicitCachingEnabled" value="false"></property>
+    <property name="NetworkProtocol" value="tcp"></property>
+    <property name="URL" value="jdbc:oracle:thin:@10.3.4.55:1521/INSISPDB"></property>
+    <property name="DataSourceName" value="OracleDataSource"></property>
+    <property name="LoginTimeout" value="0"></property>
+    <property name="PortNumber" value="0"></property>
+    <property name="ExplicitCachingEnabled" value="false"></property>
+    <property name="Password" value="insis_gen_v10_rls"></property>
+  </jdbc-connection-pool>
+  <jdbc-resource pool-name="InsisConfigCommonDS" jndi-name="jdbc/InsisConfigCommonDS"></jdbc-resource>
+  <jdbc-connection-pool datasource-classname="oracle.jdbc.pool.OracleDataSource" name="InsisClaimsCSTDS" wrap-jdbc-objects="false" res-type="javax.sql.DataSource">
+    <property name="User" value="insis_gen_v10_rls"></property>
+    <property name="MaxStatements" value="0"></property>
+    <property name="ImplicitCachingEnabled" value="false"></property>
+    <property name="NetworkProtocol" value="tcp"></property>
+    <property name="URL" value="jdbc:oracle:thin:@10.3.4.55:1521/INSISPDB"></property>
+    <property name="DataSourceName" value="OracleDataSource"></property>
+    <property name="LoginTimeout" value="0"></property>
+    <property name="PortNumber" value="0"></property>
+    <property name="ExplicitCachingEnabled" value="false"></property>
+    <property name="Password" value="insis_gen_v10_rls"></property>
+  </jdbc-connection-pool>
+  <jdbc-resource pool-name="InsisClaimsCSTDS" jndi-name="jdbc/InsisClaimsCSTDS"></jdbc-resource>
+  <jdbc-connection-pool datasource-classname="oracle.jdbc.pool.OracleDataSource" name="InsisDS" res-type="javax.sql.DataSource">
+    <property name="User" value="insis_gen_v10_rls"></property>
+    <property name="MaxStatements" value="0"></property>
+    <property name="ImplicitCachingEnabled" value="false"></property>
+    <property name="NetworkProtocol" value="tcp"></property>
+    <property name="URL" value="jdbc:oracle:thin:@10.3.4.55:1521/INSISPDB"></property>
+    <property name="DataSourceName" value="OracleDataSource"></property>
+    <property name="LoginTimeout" value="0"></property>
+    <property name="PortNumber" value="0"></property>
+    <property name="ExplicitCachingEnabled" value="false"></property>
+    <property name="Password" value="insis_gen_v10_rls"></property>
+  </jdbc-connection-pool>
+  <jdbc-resource pool-name="InsisDS" jndi-name="jdbc/InsisDS"></jdbc-resource>
+  <jdbc-connection-pool datasource-classname="oracle.jdbc.pool.OracleDataSource" name="InsisCommonDS" wrap-jdbc-objects="false" res-type="javax.sql.DataSource">
+    <property name="User" value="insis_gen_v10_rls"></property>
+    <property name="MaxStatements" value="0"></property>
+    <property name="ImplicitCachingEnabled" value="false"></property>
+    <property name="NetworkProtocol" value="tcp"></property>
+    <property name="URL" value="jdbc:oracle:thin:@10.3.4.55:1521/INSISPDB"></property>
+    <property name="DataSourceName" value="OracleDataSource"></property>
+    <property name="LoginTimeout" value="0"></property>
+    <property name="PortNumber" value="0"></property>
+    <property name="ExplicitCachingEnabled" value="false"></property>
+    <property name="Password" value="insis_gen_v10_rls"></property>
+  </jdbc-connection-pool>
+  <jdbc-resource pool-name="InsisCommonDS" jndi-name="jdbc/InsisCommonDS"></jdbc-resource>
+  <jdbc-connection-pool datasource-classname="oracle.jdbc.pool.OracleDataSource" name="InsisPeopleModuleDS" wrap-jdbc-objects="false" res-type="javax.sql.DataSource">
+    <property name="User" value="insis_gen_v10_rls"></property>
+    <property name="MaxStatements" value="0"></property>
+    <property name="ImplicitCachingEnabled" value="false"></property>
+    <property name="NetworkProtocol" value="tcp"></property>
+    <property name="URL" value="jdbc:oracle:thin:@10.3.4.55:1521/INSISPDB"></property>
+    <property name="DataSourceName" value="OracleDataSource"></property>
+    <property name="LoginTimeout" value="0"></property>
+    <property name="PortNumber" value="0"></property>
+    <property name="ExplicitCachingEnabled" value="false"></property>
+    <property name="Password" value="insis_gen_v10_rls"></property>
+  </jdbc-connection-pool>
+  <jdbc-resource pool-name="InsisPeopleModuleDS" jndi-name="jdbc/InsisPeopleModuleDS"></jdbc-resource>
+  <jdbc-connection-pool datasource-classname="oracle.jdbc.pool.OracleDataSource" name="InsisPolicyGenDS" wrap-jdbc-objects="false" res-type="javax.sql.DataSource">
+    <property name="User" value="insis_gen_v10_rls"></property>
+    <property name="MaxStatements" value="0"></property>
+    <property name="ImplicitCachingEnabled" value="false"></property>
+    <property name="NetworkProtocol" value="tcp"></property>
+    <property name="URL" value="jdbc:oracle:thin:@10.3.4.55:1521/INSISPDB"></property>
+    <property name="DataSourceName" value="OracleDataSource"></property>
+    <property name="LoginTimeout" value="0"></property>
+    <property name="PortNumber" value="0"></property>
+    <property name="ExplicitCachingEnabled" value="false"></property>
+    <property name="Password" value="insis_gen_v10_rls"></property>
+  </jdbc-connection-pool>
+  <jdbc-connection-pool datasource-classname="oracle.jdbc.pool.OracleDataSource" name="InsisPolicyCommonDS" wrap-jdbc-objects="false" res-type="javax.sql.DataSource">
+    <property name="User" value="insis_gen_v10_rls"></property>
+    <property name="MaxStatements" value="0"></property>
+    <property name="ImplicitCachingEnabled" value="false"></property>
+    <property name="NetworkProtocol" value="tcp"></property>
+    <property name="URL" value="jdbc:oracle:thin:@10.3.4.55:1521/INSISPDB"></property>
+    <property name="DataSourceName" value="OracleDataSource"></property>
+    <property name="LoginTimeout" value="0"></property>
+    <property name="PortNumber" value="0"></property>
+    <property name="ExplicitCachingEnabled" value="false"></property>
+    <property name="Password" value="insis_gen_v10_rls"></property>
+  </jdbc-connection-pool>
+  <jdbc-resource pool-name="InsisPolicyCommonDS" jndi-name="jdbc/InsisPolicyCommonDS"></jdbc-resource>
+  <jdbc-resource pool-name="InsisPolicyGenDS" jndi-name="jdbc/InsisPolicyGenDS"></jdbc-resource>
+  <jdbc-connection-pool datasource-classname="oracle.jdbc.pool.OracleDataSource" name="InsisVFUComposer" wrap-jdbc-objects="false" res-type="javax.sql.DataSource">
+    <property name="User" value="insis_gen_v10_rls"></property>
+    <property name="MaxStatements" value="0"></property>
+    <property name="ImplicitCachingEnabled" value="false"></property>
+    <property name="NetworkProtocol" value="tcp"></property>
+    <property name="URL" value="jdbc:oracle:thin:@10.3.4.55:1521/INSISPDB"></property>
+    <property name="DataSourceName" value="OracleDataSource"></property>
+    <property name="LoginTimeout" value="0"></property>
+    <property name="PortNumber" value="0"></property>
+    <property name="ExplicitCachingEnabled" value="false"></property>
+    <property name="Password" value="insis_gen_v10_rls"></property>
+  </jdbc-connection-pool>
+  <jdbc-resource pool-name="InsisVFUComposer" jndi-name="jdbc/InsisVFUComposer"></jdbc-resource>
+  <jdbc-connection-pool datasource-classname="oracle.jdbc.pool.OracleDataSource" name="InsisVFUComposerDS" res-type="javax.sql.DataSource">
+    <property name="User" value="insis_gen_v10_rls"></property>
+    <property name="MaxStatements" value="0"></property>
+    <property name="ImplicitCachingEnabled" value="false"></property>
+    <property name="NetworkProtocol" value="tcp"></property>
+    <property name="URL" value="jdbc:oracle:thin:@10.3.4.55:1521/INSISPDB"></property>
+    <property name="DataSourceName" value="OracleDataSource"></property>
+    <property name="LoginTimeout" value="0"></property>
+    <property name="PortNumber" value="0"></property>
+    <property name="ExplicitCachingEnabled" value="false"></property>
+    <property name="Password" value="insis_gen_v10_rls"></property>
+  </jdbc-connection-pool>
+  <jdbc-resource pool-name="InsisVFUComposerDS" jndi-name="jdbc/InsisVFUComposerDS"></jdbc-resource>
+  <jdbc-connection-pool datasource-classname="oracle.jdbc.pool.OracleDataSource" name="InsisJbpmDS" wrap-jdbc-objects="false" res-type="javax.sql.DataSource">
+    <property name="User" value="insis_bpmx"></property>
+    <property name="MaxStatements" value="0"></property>
+    <property name="ImplicitCachingEnabled" value="false"></property>
+    <property name="NetworkProtocol" value="tcp"></property>
+    <property name="URL" value="jdbc:oracle:thin:@10.3.4.55:1521/INSISPDB"></property>
+    <property name="DataSourceName" value="OracleDataSource"></property>
+    <property name="LoginTimeout" value="0"></property>
+    <property name="PortNumber" value="0"></property>
+    <property name="ExplicitCachingEnabled" value="false"></property>
+    <property name="Password" value="insis_bpmx"></property>
+  </jdbc-connection-pool>
+  <jdbc-resource pool-name="InsisJbpmDS" jndi-name="jdbc/InsisJbpmDS"></jdbc-resource>
+  <jdbc-connection-pool datasource-classname="oracle.jdbc.pool.OracleDataSource" name="InsisAQMaintenanceDS" wrap-jdbc-objects="false" res-type="javax.sql.DataSource">
+    <property name="User" value="insis_sys_v10"></property>
+    <property name="MaxStatements" value="0"></property>
+    <property name="ImplicitCachingEnabled" value="false"></property>
+    <property name="NetworkProtocol" value="tcp"></property>
+    <property name="URL" value="jdbc:oracle:thin:@10.3.4.55:1521/INSISPDB"></property>
+    <property name="DataSourceName" value="OracleDataSource"></property>
+    <property name="LoginTimeout" value="0"></property>
+    <property name="PortNumber" value="0"></property>
+    <property name="ExplicitCachingEnabled" value="false"></property>
+    <property name="Password" value="insis_sys_v10"></property>
+  </jdbc-connection-pool>
+  <jdbc-resource pool-name="InsisAQMaintenanceDS" jndi-name="jdbc/InsisAQMaintenanceDS"></jdbc-resource>
+  <jdbc-connection-pool datasource-classname="oracle.jdbc.pool.OracleDataSource" name="InsisClaimsGenDS" wrap-jdbc-objects="false" res-type="javax.sql.DataSource">
+    <property name="User" value="insis_gen_v10_rls"></property>
+    <property name="MaxStatements" value="0"></property>
+    <property name="ImplicitCachingEnabled" value="false"></property>
+    <property name="NetworkProtocol" value="tcp"></property>
+    <property name="URL" value="jdbc:oracle:thin:@10.3.4.55:1521/INSISPDB"></property>
+    <property name="DataSourceName" value="OracleDataSource"></property>
+    <property name="LoginTimeout" value="0"></property>
+    <property name="PortNumber" value="0"></property>
+    <property name="ExplicitCachingEnabled" value="false"></property>
+    <property name="Password" value="insis_gen_v10_rls"></property>
+  </jdbc-connection-pool>
+  <jdbc-resource pool-name="InsisClaimsGenDS" jndi-name="jdbc/InsisClaimsGenDS"></jdbc-resource>
+  <jdbc-connection-pool datasource-classname="oracle.jdbc.pool.OracleDataSource" name="InsisFrontEndServicesModuleDS" wrap-jdbc-objects="false" res-type="javax.sql.DataSource">
+    <property name="User" value="insis_gen_v10_rls"></property>
+    <property name="MaxStatements" value="0"></property>
+    <property name="ImplicitCachingEnabled" value="false"></property>
+    <property name="NetworkProtocol" value="tcp"></property>
+    <property name="URL" value="jdbc:oracle:thin:@10.3.4.55:1521/INSISPDB"></property>
+    <property name="DataSourceName" value="OracleDataSource"></property>
+    <property name="LoginTimeout" value="0"></property>
+    <property name="PortNumber" value="0"></property>
+    <property name="ExplicitCachingEnabled" value="false"></property>
+    <property name="Password" value="insis_gen_v10_rls"></property>
+  </jdbc-connection-pool>
+  <jdbc-resource pool-name="InsisFrontEndServicesModuleDS" jndi-name="jdbc/InsisFrontEndServicesModuleDS"></jdbc-resource>
   </resources>
   <servers>
     <server config-ref="server-config" name="server">
@@ -117,16 +254,21 @@
       <resource-ref ref="jms/__defaultConnectionFactory"></resource-ref>
       <resource-ref ref="concurrent/__defaultContextService"></resource-ref>
       <resource-ref ref="concurrent/__defaultManagedThreadFactory"></resource-ref>
-      <resource-ref ref="jdbc/InsisDS"></resource-ref>
       <resource-ref ref="jdbc/InternalInsisDS"></resource-ref>
-      <resource-ref ref="jdbc/InsisCommonDS"></resource-ref>
       <resource-ref ref="jdbc/InsisBillingCollectionModuleDS"></resource-ref>
+      <resource-ref ref="jdbc/InsisConfigCommonDS"></resource-ref>
+      <resource-ref ref="jdbc/InsisClaimsCSTDS"></resource-ref>
+      <resource-ref ref="jdbc/InsisDS"></resource-ref>
+      <resource-ref ref="jdbc/InsisCommonDS"></resource-ref>
+      <resource-ref ref="jdbc/InsisPeopleModuleDS"></resource-ref>
+      <resource-ref ref="jdbc/InsisPolicyCommonDS"></resource-ref>
+      <resource-ref ref="jdbc/InsisPolicyGenDS"></resource-ref>
+      <resource-ref ref="jdbc/InsisVFUComposer"></resource-ref>
       <resource-ref ref="jdbc/InsisVFUComposerDS"></resource-ref>
       <resource-ref ref="jdbc/InsisJbpmDS"></resource-ref>
       <resource-ref ref="jdbc/InsisAQMaintenanceDS"></resource-ref>
-      <resource-ref ref="jdbc/InsisPolicyGenDS"></resource-ref>
-      <resource-ref ref="jdbc/InsisPolicyCommonDS"></resource-ref>
-      <resource-ref ref="jdbc/InsisClaimsCSTDS"></resource-ref>
+      <resource-ref ref="jdbc/InsisClaimsGenDS"></resource-ref>
+      <resource-ref ref="jdbc/InsisFrontEndServicesModuleDS"></resource-ref>
     </server>
   </servers>
   <nodes>
@@ -290,6 +432,7 @@
         <jvm-options>[9|]--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED</jvm-options>
         <jvm-options>-Djdk.corba.allowOutputStreamSubclass=true</jvm-options>
         <jvm-options>-Djavax.management.builder.initial=com.sun.enterprise.v3.admin.AppServerMBeanServerBuilder</jvm-options>
+        <jvm-options>-Djavax.xml.parsers.DocumentBuilderFactory=oracle.xml.jaxp.JXDocumentBuilderFactory</jvm-options>
         <jvm-options>-Djdk.tls.rejectClientInitiatedRenegotiation=true</jvm-options>
         <jvm-options>-Dosgi.shell.telnet.maxconn=1</jvm-options>
         <jvm-options>-Dcom.sun.enterprise.config.config_environment_factory_class=com.sun.enterprise.config.serverbeans.AppserverConfigEnvironmentFactory</jvm-options>
