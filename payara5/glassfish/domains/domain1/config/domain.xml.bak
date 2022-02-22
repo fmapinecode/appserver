@@ -46,12 +46,69 @@
     <connector-resource pool-name="jms/__defaultConnectionFactory-Connection-Pool" object-type="system-all-req" jndi-name="jms/__defaultConnectionFactory"></connector-resource>
     <context-service object-type="system-all" jndi-name="concurrent/__defaultContextService"></context-service>
     <managed-thread-factory object-type="system-all" jndi-name="concurrent/__defaultManagedThreadFactory"></managed-thread-factory>
+    <jdbc-connection-pool pooling="false" log-jdbc-calls="true" datasource-classname="oracle.jdbc.pool.OracleDataSource" name="InsisDS" res-type="javax.sql.DataSource">
+      <property name="User" value="INSIS_GEN_V10_RLS"></property>
+      <property name="MaxStatements" value="0"></property>
+      <property name="ImplicitCachingEnabled" value="false"></property>
+      <property name="NetworkProtocol" value="tcp"></property>
+      <property name="URL" value="jdbc:oracle:thin:@10.3.4.56:1521/INSISPDB"></property>
+      <property name="DataSourceName" value="OracleDataSource"></property>
+      <property name="LoginTimeout" value="0"></property>
+      <property name="PortNumber" value="0"></property>
+      <property name="ExplicitCachingEnabled" value="false"></property>
+      <property name="Password" value="insis_gen_v10_rls"></property>
+    </jdbc-connection-pool>
+    <jdbc-resource pool-name="InsisDS" jndi-name="jdbc/InsisDS"></jdbc-resource>
+    <jdbc-resource pool-name="InsisDS" jndi-name="jdbc/InternalInsisDS"></jdbc-resource>
+    <jdbc-resource pool-name="InsisDS" jndi-name="jdbc/InsisCommonDS"></jdbc-resource>
+    <jdbc-connection-pool datasource-classname="oracle.jdbc.pool.OracleDataSource" name="InsisBillingCollectionModule" res-type="javax.sql.DataSource">
+      <property name="User" value="insis_gen_blc_v10_rls"></property>
+      <property name="MaxStatements" value="0"></property>
+      <property name="ImplicitCachingEnabled" value="false"></property>
+      <property name="NetworkProtocol" value="tcp"></property>
+      <property name="URL" value="jdbc:oracle:thin:@10.3.4.55:1521/INSISPDB"></property>
+      <property name="DataSourceName" value="OracleDataSource"></property>
+      <property name="LoginTimeout" value="0"></property>
+      <property name="PortNumber" value="0"></property>
+      <property name="ExplicitCachingEnabled" value="false"></property>
+      <property name="Password" value="insis_gen_blc_v10_rls"></property>
+    </jdbc-connection-pool>
+    <jdbc-resource pool-name="InsisBillingCollectionModule" jndi-name="jdbc/InsisBillingCollectionModuleDS"></jdbc-resource>
+    <jdbc-resource pool-name="InsisDS" jndi-name="jdbc/InsisVFUComposerDS"></jdbc-resource>
+    <jdbc-connection-pool datasource-classname="oracle.jdbc.pool.OracleDataSource" name="InsisJbpmDS" wrap-jdbc-objects="false" res-type="javax.sql.DataSource">
+      <property name="User" value="insis_bpmx"></property>
+      <property name="MaxStatements" value="0"></property>
+      <property name="ImplicitCachingEnabled" value="false"></property>
+      <property name="NetworkProtocol" value="tcp"></property>
+      <property name="URL" value="jdbc:oracle:thin:@10.3.4.55:1521/INSISPDB"></property>
+      <property name="DataSourceName" value="OracleDataSource"></property>
+      <property name="LoginTimeout" value="0"></property>
+      <property name="PortNumber" value="0"></property>
+      <property name="ExplicitCachingEnabled" value="false"></property>
+      <property name="Password" value="insis_bpmx"></property>
+    </jdbc-connection-pool>
+    <jdbc-resource pool-name="InsisJbpmDS" jndi-name="jdbc/InsisJbpmDS"></jdbc-resource>
+    <jdbc-connection-pool datasource-classname="oracle.jdbc.pool.OracleDataSource" name="InsisAQMaintenanceDS" res-type="javax.sql.DataSource">
+      <property name="User" value="insis_sys_v10"></property>
+      <property name="MaxStatements" value="0"></property>
+      <property name="ImplicitCachingEnabled" value="false"></property>
+      <property name="NetworkProtocol" value="tcp"></property>
+      <property name="URL" value="jdbc:oracle:thin:@10.3.4.55:1521/INSISPDB"></property>
+      <property name="DataSourceName" value="OracleDataSource"></property>
+      <property name="LoginTimeout" value="0"></property>
+      <property name="PortNumber" value="0"></property>
+      <property name="ExplicitCachingEnabled" value="false"></property>
+      <property name="Password" value="insis_sys_v10"></property>
+    </jdbc-connection-pool>
+    <jdbc-resource pool-name="InsisAQMaintenanceDS" jndi-name="jdbc/InsisAQMaintenanceDS"></jdbc-resource>
+    <jdbc-resource pool-name="InsisDS" jndi-name="jdbc/InsisPolicyGenDS"></jdbc-resource>
+    <jdbc-resource pool-name="InsisDS" jndi-name="jdbc/InsisPolicyCommonDS"></jdbc-resource>
+    <jdbc-resource pool-name="InsisDS" jndi-name="jdbc/InsisClaimsCSTDS"></jdbc-resource>
   </resources>
   <servers>
     <server config-ref="server-config" name="server">
       <application-ref ref="__admingui" virtual-servers="__asadmin"></application-ref>
-      <application-ref ref="GlassfishTestApp" virtual-servers="server"></application-ref>
-      <application-ref ref="RemoteTaskFlowProducer" virtual-servers="server"></application-ref>
+      <application-ref ref="adfspringJDevWorkspace_Project1_adfspringJDevWorkspace" virtual-servers="server"></application-ref>
       <resource-ref ref="jdbc/__TimerPool"></resource-ref>
       <resource-ref ref="jdbc/__default"></resource-ref>
       <resource-ref ref="concurrent/__defaultManagedExecutorService"></resource-ref>
@@ -59,6 +116,16 @@
       <resource-ref ref="jms/__defaultConnectionFactory"></resource-ref>
       <resource-ref ref="concurrent/__defaultContextService"></resource-ref>
       <resource-ref ref="concurrent/__defaultManagedThreadFactory"></resource-ref>
+      <resource-ref ref="jdbc/InsisDS"></resource-ref>
+      <resource-ref ref="jdbc/InternalInsisDS"></resource-ref>
+      <resource-ref ref="jdbc/InsisCommonDS"></resource-ref>
+      <resource-ref ref="jdbc/InsisBillingCollectionModuleDS"></resource-ref>
+      <resource-ref ref="jdbc/InsisVFUComposerDS"></resource-ref>
+      <resource-ref ref="jdbc/InsisJbpmDS"></resource-ref>
+      <resource-ref ref="jdbc/InsisAQMaintenanceDS"></resource-ref>
+      <resource-ref ref="jdbc/InsisPolicyGenDS"></resource-ref>
+      <resource-ref ref="jdbc/InsisPolicyCommonDS"></resource-ref>
+      <resource-ref ref="jdbc/InsisClaimsCSTDS"></resource-ref>
     </server>
   </servers>
   <nodes>
@@ -144,7 +211,7 @@
       <cdi-service></cdi-service>
       <jdbc-config-source-configuration></jdbc-config-source-configuration>
       <diagnostic-service></diagnostic-service>
-      <security-service>
+      <security-service default-principal-password="insis_gen_v10" default-principal="insis_gen_v10">
         <auth-realm classname="com.sun.enterprise.security.auth.realm.file.FileRealm" name="admin-realm">
           <property name="file" value="${com.sun.aas.instanceRoot}/config/admin-keyfile"></property>
           <property name="jaas-context" value="fileRealm"></property>
@@ -208,10 +275,8 @@
         <property name="default-digest-algorithm" value="SHA-256"></property>
       </security-service>
       <java-config classpath-suffix="" debug-options="-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=9009" system-classpath="">
-        <jvm-options>-server</jvm-options>
         <jvm-options>[9|]--add-opens=java.base/jdk.internal.loader=ALL-UNNAMED</jvm-options>
         <jvm-options>[9|]--add-opens=jdk.management/com.sun.management.internal=ALL-UNNAMED</jvm-options>
-        <jvm-options>[9|]--add-exports=java.base/jdk.internal.ref=ALL-UNNAMED</jvm-options>
         <jvm-options>[9|]--add-opens=java.base/java.lang=ALL-UNNAMED</jvm-options>
         <jvm-options>[9|]--add-opens=java.base/java.net=ALL-UNNAMED</jvm-options>
         <jvm-options>[9|]--add-opens=java.base/java.nio=ALL-UNNAMED</jvm-options>
@@ -222,49 +287,53 @@
         <jvm-options>[9|]--add-opens=java.base/sun.net.www.protocol.jar=ALL-UNNAMED</jvm-options>
         <jvm-options>[9|]--add-opens=java.naming/javax.naming.spi=ALL-UNNAMED</jvm-options>
         <jvm-options>[9|]--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED</jvm-options>
-        <jvm-options>[9|]--add-opens=java.logging/java.util.logging=ALL-UNNAMED</jvm-options>
-        <jvm-options>-Xmx512m</jvm-options>
-        <jvm-options>-XX:NewRatio=2</jvm-options>
-        <jvm-options>-XX:+UnlockDiagnosticVMOptions</jvm-options>
-        <jvm-options>-Dcom.sun.enterprise.config.config_environment_factory_class=com.sun.enterprise.config.serverbeans.AppserverConfigEnvironmentFactory</jvm-options>
-        <jvm-options>-Djava.awt.headless=true</jvm-options>
-        <jvm-options>-Djava.security.auth.login.config=${com.sun.aas.instanceRoot}/config/login.conf</jvm-options>
-        <jvm-options>-Djava.security.policy=${com.sun.aas.instanceRoot}/config/server.policy</jvm-options>
-        <jvm-options>-Djavax.management.builder.initial=com.sun.enterprise.v3.admin.AppServerMBeanServerBuilder</jvm-options>
-        <jvm-options>-Dcom.sun.enterprise.security.httpsOutboundKeyAlias=s1as</jvm-options>
-        <jvm-options>-Djavax.net.ssl.keyStore=${com.sun.aas.instanceRoot}/config/keystore.jks</jvm-options>
-        <jvm-options>-Djavax.net.ssl.trustStore=${com.sun.aas.instanceRoot}/config/cacerts.jks</jvm-options>
-        <jvm-options>-Djavax.xml.accessExternalSchema=all</jvm-options>
-        <jvm-options>-Djdbc.drivers=org.h2.Driver</jvm-options>
         <jvm-options>-Djdk.corba.allowOutputStreamSubclass=true</jvm-options>
+        <jvm-options>-Djavax.management.builder.initial=com.sun.enterprise.v3.admin.AppServerMBeanServerBuilder</jvm-options>
         <jvm-options>-Djdk.tls.rejectClientInitiatedRenegotiation=true</jvm-options>
-        <jvm-options>-DANTLR_USE_DIRECT_CLASS_LOADING=true</jvm-options>
-        <jvm-options>-Dorg.glassfish.additionalOSGiBundlesToStart=org.apache.felix.shell,org.apache.felix.gogo.runtime,org.apache.felix.gogo.shell,org.apache.felix.gogo.command,org.apache.felix.shell.remote,org.apache.felix.fileinstall</jvm-options>
-        <jvm-options>-Dosgi.shell.telnet.port=6666</jvm-options>
         <jvm-options>-Dosgi.shell.telnet.maxconn=1</jvm-options>
-        <jvm-options>-Dosgi.shell.telnet.ip=127.0.0.1</jvm-options>
+        <jvm-options>-Dcom.sun.enterprise.config.config_environment_factory_class=com.sun.enterprise.config.serverbeans.AppserverConfigEnvironmentFactory</jvm-options>
         <jvm-options>-Dgosh.args=--nointeractive</jvm-options>
-        <jvm-options>-Dfelix.fileinstall.dir=${com.sun.aas.installRoot}/modules/autostart/</jvm-options>
-        <jvm-options>-Dfelix.fileinstall.poll=5000</jvm-options>
-        <jvm-options>-Dfelix.fileinstall.log.level=2</jvm-options>
-        <jvm-options>-Dfelix.fileinstall.bundles.new.start=true</jvm-options>
-        <jvm-options>-Dfelix.fileinstall.bundles.startTransient=true</jvm-options>
+        <jvm-options>-Dorg.glassfish.additionalOSGiBundlesToStart=org.apache.felix.shell,org.apache.felix.gogo.runtime,org.apache.felix.gogo.shell,org.apache.felix.gogo.command,org.apache.felix.shell.remote,org.apache.felix.fileinstall</jvm-options>
+        <jvm-options>-server</jvm-options>
+        <jvm-options>-Djava.security.auth.login.config=${com.sun.aas.instanceRoot}/config/login.conf</jvm-options>
         <jvm-options>-Dfelix.fileinstall.disableConfigSave=false</jvm-options>
-        <jvm-options>-Dcom.ctc.wstx.returnNullForDefaultNamespace=true</jvm-options>
+        <jvm-options>-Djava.security.policy=${com.sun.aas.instanceRoot}/config/server.policy</jvm-options>
+        <jvm-options>-Dfelix.fileinstall.bundles.new.start=true</jvm-options>
+        <jvm-options>-Xmx4096m</jvm-options>
         <jvm-options>-Dorg.glassfish.grizzly.DEFAULT_MEMORY_MANAGER=org.glassfish.grizzly.memory.HeapMemoryManager</jvm-options>
-        <jvm-options>-Dorg.glassfish.grizzly.nio.DefaultSelectorHandler.force-selector-spin-detection=true</jvm-options>
-        <jvm-options>-Dorg.jboss.weld.serialization.beanIdentifierIndexOptimization=false</jvm-options>
+        <jvm-options>-Djavax.xml.accessExternalSchema=all</jvm-options>
+        <jvm-options>-Dosgi.shell.telnet.port=6666</jvm-options>
+        <jvm-options>-Dfelix.fileinstall.log.level=2</jvm-options>
+        <jvm-options>[1.8.0.121|1.8.0.160]-Xbootclasspath/p:${com.sun.aas.installRoot}/lib/grizzly-npn-bootstrap-1.7.jar</jvm-options>
+        <jvm-options>[9|]--add-opens=java.logging/java.util.logging=ALL-UNNAMED</jvm-options>
+        <jvm-options>-Djava.awt.headless=true</jvm-options>
+        <jvm-options>-Dfelix.fileinstall.poll=5000</jvm-options>
         <jvm-options>[|8]-Djava.endorsed.dirs=${com.sun.aas.installRoot}/modules/endorsed${path.separator}${com.sun.aas.installRoot}/lib/endorsed</jvm-options>
-        <jvm-options>[|8]-Djava.ext.dirs=${com.sun.aas.javaRoot}/lib/ext${path.separator}${com.sun.aas.javaRoot}/jre/lib/ext${path.separator}${com.sun.aas.instanceRoot}/lib/ext</jvm-options>
-        <jvm-options>[1.8.0|1.8.0u120]-Xbootclasspath/p:${com.sun.aas.installRoot}/lib/grizzly-npn-bootstrap-1.6.jar</jvm-options>
-        <jvm-options>[1.8.0u121|1.8.0u160]-Xbootclasspath/p:${com.sun.aas.installRoot}/lib/grizzly-npn-bootstrap-1.7.jar</jvm-options>
-        <jvm-options>[1.8.0u161|1.8.0u190]-Xbootclasspath/p:${com.sun.aas.installRoot}/lib/grizzly-npn-bootstrap-1.8.jar</jvm-options>
-        <jvm-options>[1.8.0u191|1.8.0u250]-Xbootclasspath/p:${com.sun.aas.installRoot}/lib/grizzly-npn-bootstrap-1.8.1.jar</jvm-options>
-        <jvm-options>[1.8.0u251|]-Xbootclasspath/a:${com.sun.aas.installRoot}/lib/grizzly-npn-api.jar</jvm-options>
-        <jvm-options>[Azul-1.8.0u222|1.8.0u260]-XX:+UseOpenJSSE</jvm-options>
-        <jvm-options>[9|]-Djdk.attach.allowAttachSelf=true</jvm-options>
+        <jvm-options>[1.8.0.191|1.8.0.250]-Xbootclasspath/p:${com.sun.aas.installRoot}/lib/grizzly-npn-bootstrap-1.8.1.jar</jvm-options>
+        <jvm-options>-Djdbc.drivers=org.h2.Driver</jvm-options>
+        <jvm-options>-Dfelix.fileinstall.dir=${com.sun.aas.installRoot}/modules/autostart/</jvm-options>
+        <jvm-options>[1.8.0|1.8.0.120]-Xbootclasspath/p:${com.sun.aas.installRoot}/lib/grizzly-npn-bootstrap-1.6.jar</jvm-options>
+        <jvm-options>-XX:+UnlockDiagnosticVMOptions</jvm-options>
+        <jvm-options>[1.8.0.161|1.8.0.190]-Xbootclasspath/p:${com.sun.aas.installRoot}/lib/grizzly-npn-bootstrap-1.8.jar</jvm-options>
+        <jvm-options>-Djavax.net.ssl.keyStore=${com.sun.aas.instanceRoot}/config/keystore.jks</jvm-options>
+        <jvm-options>-DANTLR_USE_DIRECT_CLASS_LOADING=true</jvm-options>
+        <jvm-options>[Azul-1.8.0.222|1.8.0.260]-XX:+UseOpenJSSE</jvm-options>
         <jvm-options>[Dynamic Code Evolution-11.0.10|]-XX:HotswapAgent=core</jvm-options>
+        <jvm-options>-Dfelix.fileinstall.bundles.startTransient=true</jvm-options>
+        <jvm-options>[1.8.0.251|]-Xbootclasspath/a:${com.sun.aas.installRoot}/lib/grizzly-npn-api.jar</jvm-options>
+        <jvm-options>[9|]-Djdk.attach.allowAttachSelf=true</jvm-options>
+        <jvm-options>-Doracle.jdbc.autoCommitSpecCompliant=false</jvm-options>
+        <jvm-options>-Dorg.glassfish.grizzly.nio.DefaultSelectorHandler.force-selector-spin-detection=true</jvm-options>
+        <jvm-options>-Dcom.ctc.wstx.returnNullForDefaultNamespace=true</jvm-options>
         <jvm-options>[Dynamic Code Evolution-11.0.10|]-Xlog:redefine+class*=info</jvm-options>
+        <jvm-options>-Dosgi.shell.telnet.ip=127.0.0.1</jvm-options>
+        <jvm-options>-Djavax.net.ssl.trustStore=${com.sun.aas.instanceRoot}/config/cacerts.jks</jvm-options>
+        <jvm-options>-Dcom.sun.enterprise.security.httpsOutboundKeyAlias=s1as</jvm-options>
+        <jvm-options>-Dorg.jboss.weld.serialization.beanIdentifierIndexOptimization=false</jvm-options>
+        <jvm-options>[9|]--add-exports=java.base/jdk.internal.ref=ALL-UNNAMED</jvm-options>
+        <jvm-options>[|8]-Djava.ext.dirs=${com.sun.aas.javaRoot}/lib/ext${path.separator}${com.sun.aas.javaRoot}/jre/lib/ext${path.separator}${com.sun.aas.instanceRoot}/lib/ext</jvm-options>
+        <jvm-options>-XX:NewRatio=2</jvm-options>
+        <jvm-options>-Djavax.xml.parsers.DocumentBuilderFactory=oracle.xml.jaxp.JXDocumentBuilderFactory</jvm-options>
       </java-config>
       <availability-service>
         <web-container-availability></web-container-availability>
@@ -564,33 +633,13 @@
   <deployment-groups></deployment-groups>
   <clusters></clusters>
   <applications>
-    <application deployment-time="39122" object-type="user" name="GlassfishTestApp" time-deployed="1635526778457" location="${com.sun.aas.instanceRootURI}/applications/GlassfishTestApp/">
+    <application deployment-time="41825" object-type="user" name="adfspringJDevWorkspace_Project1_adfspringJDevWorkspace" time-deployed="1643896625765" location="${com.sun.aas.instanceRootURI}/applications/adfspringJDevWorkspace_Project1_adfspringJDevWorkspace/">
       <property name="archiveType" value="ear"></property>
       <property name="cdiDevModeEnabled" value="false"></property>
-      <property name="java-web-start-enabled" value="true"></property>
-      <property name="implicitCdiEnabled" value="true"></property>
-      <property name="preserveAppScopedResources" value="false"></property>
       <property name="isComposite" value="true"></property>
-      <property name="appLocation" value="${com.sun.aas.instanceRootURI}/applications/__internal/GlassfishTestApp/GlassfishTestApp.ear"></property>
-      <property name="defaultAppName" value="GlassfishTestApp"></property>
-      <module name="GlassfishTestAppWeb.war">
-        <engine sniffer="config"></engine>
-        <engine sniffer="security"></engine>
-        <engine sniffer="web"></engine>
-      </module>
-      <engine sniffer="config"></engine>
-      <engine sniffer="ear"></engine>
-    </application>
-    <application deployment-time="30476" object-type="user" name="RemoteTaskFlowProducer" location="${com.sun.aas.instanceRootURI}/applications/RemoteTaskFlowProducer/" time-deployed="1635858010994">
-      <property name="archiveType" value="ear"></property>
-      <property name="cdiDevModeEnabled" value="false"></property>
-      <property name="java-web-start-enabled" value="true"></property>
-      <property name="implicitCdiEnabled" value="true"></property>
-      <property name="preserveAppScopedResources" value="false"></property>
-      <property name="isComposite" value="true"></property>
-      <property name="appLocation" value="${com.sun.aas.instanceRootURI}/applications/__internal/RemoteTaskFlowProducer/RemoteTaskFlowProducer.ear"></property>
-      <property name="defaultAppName" value="RemoteTaskFlowProducer"></property>
-      <module name="RemoteTaskFlowProducer.war">
+      <property name="defaultAppName" value="adfspringJDevWorkspace_Project1_adfspringJDevWorkspace"></property>
+      <property name="appLocation" value="${com.sun.aas.instanceRootURI}/applications/__internal/adfspringJDevWorkspace_Project1_adfspringJDevWorkspace/adfspringJDevWorkspace_Project1_adfspringJDevWorkspace.ear"></property>
+      <module name="adfspringJDevWorkspace_ViewController_webapp.war">
         <engine sniffer="config"></engine>
         <engine sniffer="security"></engine>
         <engine sniffer="web"></engine>
